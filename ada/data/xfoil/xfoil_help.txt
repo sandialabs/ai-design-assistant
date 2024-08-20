@@ -1,0 +1,1 @@
+XFOIL is typically able to converge angles of attack (alpha) between -30 and +30 degrees.  Cases beyond this range may not converge.

@@ -1,0 +1,154 @@
+[
+    {
+        "name": "generateAirfoil",
+        "description": "Generates an airfoil",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "aflString": {"type": "string", "description": "The name of the airfoil, eg: NACA 2412"}
+            },
+            "required": ["aflString"]
+        }
+    },
+    {
+        "name": "printAirfoilCoordinates",
+        "description": "Prints out the coordinates of the currently active airfoil",
+        "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": []
+        }
+    },
+    {
+        "name": "plotAirfoilGeometry",
+        "description": "Plots the geometry of the currently active airfoil",
+        "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": []
+        }
+    },
+    {
+        "name": "changeActiveAirfoil",
+        "description": "Changes the currently active airfoil",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "activeAirfoilNumber": {"type": "string", "description": "The number of the new target active airfoil"}
+            },
+            "required": ["activeAirfoilNumber"]
+        }
+    },
+    {
+        "name": "changeActiveRuncase",
+        "description": "Changes the currently active runcase",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "activeRuncaseNumber": {"type": "string", "description": "The number of the new target runcase"}
+            },
+            "required": ["activeRuncaseNumber"]
+        }
+    },
+    {
+        "name": "addRuncase",
+        "description": "Adds a new runcase to the currently active airfoil",
+        "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": []
+        }
+    },
+    {
+        "name": "modifyRuncase",
+        "description": "Modifies a parameter in the current runcase",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "parameter": {"type": "string", "description": "The parameter being updates", "enum": ["alpha","cl","mach","re","n_crit","xtr_u","xtr_l","n_panels"]},
+                "value": {"type": "string", "description": "The value to set the parameter to.  This can be a single number, a list of number contained within parenthesis, ex: (-10,10,30), or a list contained withing square brackets, ex: [1,2,3,4,5]"}
+            },
+            "required": ["parameter","value"]
+        }
+    },
+    {
+        "name": "modifyGeometry",
+        "description": "Modifies a parameter in the current geometry",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "surface": {"type": "string", "description": "Selects between the upper and lower surface parameterizations.  Letter 'l' can also be used to indicate the lower surface, and letter 'u' can also indicate the upper surface. ", "enum": ["upper","lower"]},
+                "index": {"type": "string", "description": "The index (an integer) that corresonds to the value being changed.  This may be coupled with the letter K, as in K[1] or K_1 to indicate the desired index."},
+                "value": {"type": "string", "description": "The value to set the parameter to.  This will be a single float number."}
+            },
+            "required": ["surface","index","value"]
+        }
+    },
+    {
+        "name": "forcePlot",
+        "description": "Plots the forces on the airfoil as vectors",
+        "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": []
+        }
+    },
+    {
+        "name": "boundaryLayerPlot",
+        "description": "Plots the boundary layer parameters of the airfoil evaluated at the current runcase",
+        "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": []
+        }
+    },
+    {
+        "name": "run",
+        "description": "Runs the currently active airfoil at the current runcase",
+        "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": []
+        }
+    },
+    {
+        "name": "copyAnalysis",
+        "description": "Copies the current analysis case to a new object",
+        "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": []
+        }
+    },
+    {
+        "name": "copyGeometry",
+        "description": "Copies the current geometry to a new object",
+        "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": []
+        }
+    },
+    {
+        "name": "callLLM",
+        "description": "This function sends the query to the Large Language Model for response.  The input to the function (named queryString) is all of the recieved text",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "The query string to be sent to the large language model, will be all of the provided text"}
+            },
+            "required": ["query"]
+        }
+    },
+    {
+        "name": "callRAG",
+        "description": "This function is called in all other cases, sending the query to the Retrevial Augmented Generation framework for response.  The input to the function (named queryString) is all of the recieved text",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "query": {"type": "string", "description": "The query string to be sent to the large language model, will be all of the provided text"}
+            },
+            "required": ["query"]
+        }
+    }
+]

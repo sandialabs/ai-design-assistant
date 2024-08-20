@@ -1,0 +1,449 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+
+
+
+/* ================================================== */
+/* Setup the main layout of the page */
+/* ================================================== */
+
+.container {
+  display: flex;
+  height:  98vh;
+  flex-direction: column;
+}
+
+.flex-container {
+  display: flex;
+  flex: 1;
+}
+
+.header {
+  grid-area: header;
+  background-color: #0065cc;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  height: 20px+25px;
+  width: 100%-10px;
+}
+
+.header-text{
+  align-self: center;
+  color: #ffffff;
+  font-size: 25px;
+}
+
+.fileSidebar {
+  margin-left: 3px;
+  resize: horizontal;
+  white-space: nowrap;
+  background-color: #f2f2f2;
+  overflow-y: scroll;
+  flex: 0 0 auto;
+  width: 10vw;
+}
+
+.analysisSidebar {
+  margin-left: 3px;
+  resize: horizontal;
+  white-space: nowrap;
+  background-color: #f2f2f2;
+  overflow-y: scroll;
+  flex: 0 0 auto;
+  width: 10vw;
+}
+
+.dataSidebar {
+  margin-left: 3px;
+  resize: horizontal;
+  white-space: nowrap;
+  background-color: #f2f2f2;
+  overflow-y: scroll;
+  flex: 0 0 auto;
+  width: 10vw;
+}
+
+
+.main-stacker {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+}
+
+
+.main-content {
+  overflow-y: scroll;
+  height: 100%;
+  width: 100%;
+}
+
+.footer {
+  margin-top: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  align-self: center;
+  justify-self: center;
+  width: 95%;
+}
+
+
+.geometry-stacker {
+  display: flex;
+  flex: 1 1 0;
+  flex-direction: column;
+}
+
+.geometryWindow {
+  background-color: #eaf2ff;
+  height: 60%;
+}
+
+.geometrySidebar {
+  background-color: #f2f2f2;
+  overflow-y: auto;
+  margin-top: auto;
+  height: 40%;
+}
+
+.main-column {
+  margin-top: 3px;
+}
+
+.query-box-font {
+  font-size: 1vw;
+}
+@media screen and (min-width: 1500px) {
+  .query-box-font {
+     font-size: 18px;
+  }
+}
+
+.io-text {
+  font-size: 0.75vw;
+}
+@media screen and (min-width: 1500px) {
+  .io-text {
+     font-size: 14px;
+  }
+}
+
+.small-font-index {
+  font-size: 0.7vw;
+}
+@media screen and (min-width: 1500px) {
+  .small-font-index {
+     font-size: 13px;
+  }
+}
+
+/* ================================================== */
+/* A couple general utilities */
+/* ================================================== */
+
+.scroll-wrapper {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+/* ================================================== */
+/* Setup the query box */
+/* ================================================== */
+
+.query-box {
+  border: 2px solid black;
+  border-radius: 10px;
+  padding:5px;
+  width:inherit;
+  display: flex;
+}
+
+.send-button {
+}
+
+.mode-selector {
+  /*-webkit-appearance: none;*/
+  /*-moz-appearance: none;*/
+  /*appearance: none;*/
+  flex:  1;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-right: 5px;
+  max-width: 140px;
+  color: #ffffff;
+  border: none;
+}
+
+.input-text-box {
+  flex: 1;
+  border: 0pt;
+  padding-left:5px;
+}
+
+.input-text-box:focus {
+  outline:none;
+}
+
+.send-button {
+    border: 0px;
+    background-color: #aaffaa;
+    border-radius: 4px;
+    flex: 1 0 auto;
+    max-width: 70px;
+}
+
+.send-button:hover{
+    background-color: #66ff66;
+}
+
+.send-button:active{
+    background-color: #bbbbbb;
+}
+
+/* ================================================== */
+/* Setup the cells in the geometry column */
+/* ================================================== */
+
+.geometry-cell {
+margin-top: 5px;
+padding-left: 10px;
+}
+
+.geometry-cell.active {
+background-color: #cccccc;
+}
+
+.geomtry-type {
+
+}
+
+.geometry-table {
+padding-left: 15px;
+}
+
+.geometry-row {
+
+}
+
+.geometry-parameter {
+
+}
+
+.geometry-value {
+padding-left: 15px;
+}
+
+/* ================================================== */
+/* Setup the cells in the analysis column */
+/* ================================================== */
+
+.analysis-cell {
+margin-top: 5px;
+padding-left: 10px;
+}
+
+.analysis-cell.active {
+background-color: #cccccc;
+}
+
+.analysiscase-name {
+
+}
+
+.analysiscase-table {
+padding-left: 15px;
+}
+
+.analysiscase-row {
+
+}
+
+.qoi-name {
+
+}
+
+.qoi-value {
+padding-left: 15px;
+}
+
+
+
+/* ================================================== */
+/* Setup the cells in the chat column */
+/* ================================================== */
+
+.body-cell {
+padding-top: 0.5vw;
+padding-bottom: 0.5vw;
+padding-right: 1vw;
+border-top: 2px solid grey;
+}
+
+.body-cell.last {
+border-bottom: 2px solid grey; 
+}
+
+
+.body-cell:hover {
+background-color: #f8f8ff;
+}
+
+.io-cell {
+display: flex;
+}
+
+.label {
+width: 150px;
+text-align: right;
+margin-right: 15px;
+}
+
+.query-cell {
+flex: 1;
+}
+
+.interpretation-cell {
+flex: 1;
+}
+
+.response-cell {
+flex: 1;
+height: 100%;
+width: 100%;
+}
+
+.output-cell {
+margin-top: 0.5vw;
+height: 100%;
+width: 100%;
+}
+
+.coordinate-y {
+  padding-left: 15px;
+}
+
+.results-value {
+  padding-left: 15px;
+}
+
+.shell-script {
+  background-color: #000000;
+  color: #ffffff;
+  height: 100%;
+  width: 100%;
+}
+
+.python-script {
+  font-family: monospace;
+  background-color: #f9f9f9;
+  color: #000000;
+  height: 100%;
+  width: 100%;
+}
+
+.code-literal {
+  width: 100%;
+  height: 100%;
+}
+
+.script{
+  /*display: flex;*/
+}
+
+.file-text {
+  /*position: absolute;*/
+  padding-left: 10px;
+  font-size: 80%;
+  height: 100%;
+  /*width: 100%-10px;*/
+}
+
+.script>div:hover .copy-button{
+  display: block;
+  opacity: 1;
+}
+
+.script>div:not(:hover) .copy-button{
+  opacity: 0;
+}
+
+.copy-button {
+  position: absolute;
+  right: 1.35vw;
+  /*height: 0.75vw;*/
+  border-width: 0;
+  background: rgba(1,1,1,0);
+  font-size: 0.75vw;
+  padding: 0;
+  opacity: 0;
+}
+
+.copy-image {
+  height: 1vw;
+}
+
+
+/* ================================================== */
+/* File sidebar */
+/* ================================================== */
+
+.file-row {
+  cursor: pointer;
+}
+
+
+
+
+/* ================================================== */
+/* Data sidebar */
+/* ================================================== */
+
+
+.data-row.active {
+background-color: #cccccc;
+}

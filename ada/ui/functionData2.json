@@ -1,0 +1,22 @@
+[
+    {
+        "name": "generateAirfoil",
+        "description": "Generates an airfoil",
+        "parameters": {
+            "type": "object",
+            "properties": {
+                "aflString": {"type": "string", "description": "The name of the airfoil, eg: NACA 2412"}
+            },
+            "required": ["aflString"]
+        }
+    },
+    {
+        "name": "addRuncase",
+        "description": "Adds a new runcase to the currently active airfoil",
+        "parameters": {
+            "type": "object",
+            "properties": {},
+            "required": []
+        }
+    }
+]

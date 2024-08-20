@@ -1,0 +1,84 @@
+Below is a shell script that uses XFOIL to analyze a NACA 2412 airfoil at 4 degrees angle of attack, a Reynolds number of 1e7, a Mach number of 0.2, a trip on the upper suface located at 0.9 normalized chord, and a lower surface trip at 0.95 of normalized chord.  A log amplification factor (N or Ncrit) is set to 9.0.  The maximum iteration count is set to 100.  A total of 160 panels are used to define the airfoil geometry.  Pressure coefficient data is dumped to a file named 'cp_data.txt' and boundary layer data is dumped to a file named 'bl_data.txt'.  Coefficients of lift, drag, and moment are dumped to a file named 'polars.txt'.  
+
+```shell
+#!/bin/bash
+
+# Set the input parameters
+airfoil="naca2412"
+angle_of_attack="4"
+mach_number="0.2"
+reynolds_number="1e10"
+xtr_u="0.2"
+xtr_l="0.4"
+n_panels="160"
+max_iter="200"
+n_crit="9.0"
+polar_file="polars.txt"
+bl_file="bl_data.txt"
+cp_file="cp_data.txt"
+
+# Copy the airfoil file from ADA to the local run location
+# This requires that you have set the environment variable:
+# PATH_TO_ADA, which should be set on install
+cp $PATH_TO_ADA/ada/geometry/airfoil_files/$airfoil.dat .
+
+# Create the XFOIL input file
+cat << EOF > input.txt
+PLOP
+G
+
+LOAD $airfoil.dat
+$airfoil
+PPAR
+N $n_panels
+
+
+OPER
+ITER $max_iter
+VISC
+$reynolds_number
+MACH
+$mach_number
+VPAR
+XTR
+$xtr_u
+$xtr_l
+N
+$n_crit
+
+PACC
+
+
+ALFA $angle_of_attack
+PWRT
+$polar_file
+CPWR
+$cp_file
+dump
+$bl_file
+
+QUIT
+EOF
+
+# Check if XFOIL is available
+if ! command -v xfoil &> /dev/null; then
+    echo "XFOIL is not installed. Please install XFOIL and try again."
+    exit 1
+fi
+
+# Run XFOIL with the input file
+xfoil < input.txt > runlog.txt
+
+# Clean up 
+rm $airfoil.dat
+rm input.txt
+rm *.bl
+```
+
+The airfoil variable should be set to the airfoil name input using only lowercase letters and with spaces removed if present.
+
+An edited version of this script should be returned for queries like the following:
+- "Give me a shell script that runs xfoil"
+- "Generate a shell script for running xfoil"
+- "Create a shell script for running a NACA 2412 airfoil using xfoil"
+- "Produce a shell script for running a NACA 2412 airfoil at 4 degrees angle of attack using xfoil"

@@ -1,0 +1,1660 @@
+The first column of this file is the airfoil file, the second is a description of the airfoil.  The character '\' splits the two columns
+
+bacnlf.dat                    \ Boeing high speed natural laminar flow airfoil from a European patent (EP 0111785A1)
+bw050209.dat                  \ Barnaby Wainfan's BW 05 02 09 digitized from plans
+du84132v.dat                  \ Delft DU84-132V3 (measured from an ASW22 wing)
+hor04.dat                     \ Onera HOR 04 propeller blade airfoil from US Patent 4,773,825
+hor07.dat                     \ Onera HOR 07 propeller blade airfoil from US Patent 4,773,825
+hor12.dat                     \ Onera HOR 12 propeller blade airfoil from US Patent 4,773,825
+hor20.dat                     \ Onera HOR 20 propeller blade airfoil from US Patent 4,773,825
+hq17.dat                      \ Horstmann and Quast HQ-17/14.38 (measured from an ASW22 wing) 
+hs1404.dat                    \ HS1-404 propeller blade airfoil from US Patent No. 4,519,746
+hs1430.dat                    \ HS1-430 propeller blade airfoil from US Patent No. 4,519,746
+hs1606.dat                    \ HS1-606 propeller blade airfoil from US Patent No. 4,519,746
+hs1620.dat                    \ HS1-620 propeller blade airfoil from US Patent No. 4,519,746
+hs1708.dat                    \ HS1-708 propeller blade airfoil from US Patent No. 4,519,746
+hs1712.dat                    \ HS1-712 propeller blade airfoil from US Patent No. 4,519,746
+jx-gs-04.dat                  \ Jochen Günzel JX-GS-04 airfoil for F3F slope racing 
+jx-gs-06.dat                  \ Jochen Günzel JX-GS-06 airfoil for F3F slope racing 
+jx-gs-10.dat                  \ Jochen Günzel JX-GS-10 airfoil for F3F slope racing 
+jx-gs-15.dat                  \ Jochen Günzel JX-GS-15 airfoil for F3F slope racing 
+kc135winglet.dat              \ Boeing KC-135 winglet airfoil designed by Richard T. Whitcomb
+l1003.dat                     \ Liebeck L1003 high lift airfoil
+la5055.dat                    \ Liebeck LA5055 high lift airfoil
+lrn1015.dat                   \ LRN 1015 airfoil used on the Northrop Grumman RQ-4 Global Hawk airfoil
+s102b.dat                     \ Dan Somers S102 (blunt) airfoil from US Patent 6,607,164
+s102s.dat                     \ Dan Somers S102 (sharp) airfoil from US Patent 6,607,164
+s4094.dat                     \ Selig S4094 airfoil used on the E-flite UMX ASK-21 scale RC sailplane: PDF manual picture
+s4095.dat                     \ Selig S4095 airfoil used on the E-flite UMX ASK-21 scale RC sailplane: PDF manual picture
+s4096.dat                     \ Selig S4096 airfoil used on the E-flite UMX ASK-21 scale RC sailplane: PDF manual picture
+s8064.dat                     \ Selig S8064 airfoil for Q-500 (Q500) pylon racing (12.33%) 
+s8065.dat                     \ Selig S8065 airfoil for Q-40 pylon racing (11%)
+s8066.dat                     \ Selig S8066 airfoil for Q-40 pylon racing (10%)
+supermarine371i.dat           \ Supermarine 371-I root airfoil 
+supermarine371ii.dat          \ Supermarine 371-II tip airfoil 
+tsagi_r_3a.dat                \ TsAGI R-3a (12%) used on Russian ultra light aircraft (12%).
+w1011.dat                     \ Gregory Williamson W1011 airfoil 
+w1015.dat                     \ Gregory Williamson W1015 airfoil 
+# Above this line are in a different folder
+2032c.dat                     \ Dillner 20-32-C low Reynolds number airfoil 
+a18.dat                       \ Archer A18 F1C free flight airfoil(original) 
+a18sm.dat                     \ Archer A18 F1C free flight airfoil (smoothed) 
+a63a108c.dat                  \ NASA/AMES modification of the NACA 63A-108 airfoil 
+ag03.dat                      \ Drela AG03 (flat aft bottom) airfoil 
+ag04.dat                      \ Drela AG04 airfoil 
+ag08.dat                      \ Drela AG08 airfoil 
+ag09.dat                      \ Drela AG09 airfoil 
+ag10.dat                      \ Drela AG10 airfoil 
+ag11.dat                      \ Drela AG11 airfoil 
+ag12.dat                      \ Drela AG12 airfoil 
+ag13.dat                      \ Drela AG13 airfoil 
+ag14.dat                      \ Drela AG14 airfoil 
+ag16.dat                      \ Drela AG16 airfoil 
+ag17.dat                      \ Drela AG17 airfoil 
+ag18.dat                      \ Drela AG18 airfoil 
+ag19.dat                      \ Drela AG19 airfoil 
+ag23.dat                      \ Drela AG23 airfoil used on the XC Bubble Dancer 
+ag24.dat                      \ Drela AG24 airfoil used on the Bubble Dancer R/C DLG 
+ag25.dat                      \ Drela AG25 airfoil used on the Bubble Dancer R/C DLG 
+ag26.dat                      \ Drela AG26 airfoil used on the Bubble Dancer R/C DLG 
+ag27.dat                      \ Drela AG27 airfoil used on the Bubble Dancer R/C DLG 
+ag35.dat                      \ Drela AG35 airfoil 
+ag36.dat                      \ Drela AG36 airfoil 
+ag37.dat                      \ Drela AG37 airfoil 
+ag38.dat                      \ Drela AG38 airfoil 
+ag44ct02r.dat                 \ Drela AG44ct -02f airfoil 
+ag455ct02r.dat                \ Drela AG455ct -02f airfoil 
+ag45c03.dat                   \ Drela AG45c -03f airfoil 
+ag45ct02r.dat                 \ Drela AG45ct -02f airfoil 
+ag46c03.dat                   \ Drela AG46c -03f airfoil 
+ag46ct02r.dat                 \ Drela AG46ct -02f airfoil 
+ag47c03.dat                   \ Drela AG47c -03f airfoil 
+ag47ct02r.dat                 \ Drela AG47ct -02f airfoil 
+ag52.dat                      \ Drela AG52 airfoil 
+ag53.dat                      \ Drela AG53 airfoil 
+ag54.dat                      \ Drela AG54 airfoil 
+ag55.dat                      \ Drela AG55 airfoil 
+ah21-7.dat                    \ Andrew Hollom AH 21 airfoil (7% version)
+ah21-9.dat                    \ Andrew Hollom AH 21 airfoil (original 9% version)
+ah63k127.dat                  \ Althaus AH 63-K-127/24 airfoil for use with flaps (K) 
+ah6407.dat                    \ Althaus AH 6-407 airfoil 
+ah7476.dat                    \ Althaus AH 7-476 airfoil 
+ah79100a.dat                  \ Althaus AH 79-100A airfoil 
+ah79100b.dat                  \ Althaus AH 79-100B airfoil 
+ah79100c.dat                  \ Althaus AH 79-100C airfoil 
+ah79k132.dat                  \ Althaus AH 79-K-132/20 airfoil for use with flaps (K) 
+ah79k135.dat                  \ Althaus AH 79-K-135/20 airfoil for use with flaps (K) 
+ah79k143.dat                  \ Althaus AH 79-K-143/18 airfoil for use with flaps (K) 
+ah80129.dat                   \ Althaus AH 80-129 airfoil 
+ah80136.dat                   \ Althaus AH 80-136 airfoil 
+ah80140.dat                   \ Althaus AH 80-140 airfoil 
+ah81131.dat                   \ Althaus AH 81-131 airfoil 
+ah81k144.dat                  \ Althaus AH 81-K-144/17 airfoil for use with flaps (K) 
+ah81k144wfKlappe.dat          \ Althaus AH 81-K-144 W-F KLAPPE airfoil for use with flaps (K) 
+ah82150a.dat                  \ Althaus AH 82-150 A airfoil 
+ah82150f.dat                  \ Althaus AH 82-150 F airfoil 
+ah83150q.dat                  \ Althaus AH 83-150 Q airfoil 
+ah83159.dat                   \ Althaus AH 83-159 airfoil 
+ah85l120.dat                  \ Althaus AH 85-L-120/17 symmetrical airfoil 
+ah88k130.dat                  \ Althaus AH 88-K-130/20 airfoil for use with flaps (K) 
+ah88k136.dat                  \ Althaus AH 88-K-136/16 airfoil for use with flaps (K) 
+ah93156.dat                   \ Althaus AH 93-156 airfoil 
+ah93157.dat                   \ Althaus AH 93-157 airfoil 
+ah93k130.dat                  \ Althaus AH 93-K-130/15 airfoil for use with flaps (K) 
+ah93k131.dat                  \ Althaus AH 93-K-131/15 airfoil for use with flaps (K) 
+ah93k132.dat                  \ Althaus AH 93-K-132/15 airfoil for use with flaps (K) 
+ah93w145.dat                  \ Althaus AH 93-W-145 airfoil for use on wind turbines (W) 
+ah93w174.dat                  \ Althaus AH 93-W-174 airfoil for use on wind turbines (W) 
+ah93w215.dat                  \ Althaus AH 93-W-215 airfoil for use on wind turbines (W) 
+ah93w257.dat                  \ Althaus AH 93-W-257 airfoil for use on wind turbines (W) 
+ah93w300.dat                  \ Althaus AH 93-W-300 airfoil for use on wind turbines (W) 
+ah93w480b.dat                 \ Althaus AH 93-W-480B airfoil for use on wind turbines (W) 
+ah94145.dat                   \ Althaus AH 94-145 airfoil 
+ah94156.dat                   \ Althaus AH 94-156 airfoil 
+ah94w301.dat                  \ Althaus AH 94-W-301 airfoil for use on wind turbines (W) 
+ah95160.dat                   \ Althaus AH 95-160 airfoil 
+ames01.dat                    \ NASA/AMES/Hicks A-01 transonic rotorcraft airfoil 
+ames02.dat                    \ NASA/AMES/Hicks A-02 transonic rotorcraft airfoil 
+ames03.dat                    \ NASA/AMES/Kennelly A-03 transonic rotorcraft airfoil 
+amsoil1.dat                   \ Rutan AMSOIL racer canard airfoil 
+amsoil2.dat                   \ Rutan AMSOIL racer wing airfoil 
+apex16.dat                    \ Drela Apex 16 low Reynolds number transonic research airfoil 
+aquilasm.dat                  \ AQUILA R/C sailplane airfoil 
+arad10.dat                    \ Aeronautical Research Association/Bocci-Dowty Rotol ARA-D 10% thick propeller airfoil 
+arad13.dat                    \ Aeronautical Research Association/Bocci-Dowty Rotol ARA-D 13% thick propeller airfoil 
+arad20.dat                    \ Aeronautical Research Association/Bocci-Dowty Rotol ARA-D 20% thick propeller airfoil 
+arad6.dat                     \ Aeronautical Research Association/Bocci-Dowty Rotol ARA-D 6% thick propeller airfoil 
+as5045.dat                    \ AS5045 airfoil Ashok Gopalarathnam/Selig 15% airfoil 
+as5046.dat                    \ AS5046 airfoil Ashok Gopalarathnam/Selig 16% airfoil 
+as5048.dat                    \ AS5048 airfoil Ashok Gopalarathnam/Selig 18% airfoil 
+atr72sm.dat                   \ ATR 72 wing airfoil (from NTSB report) 
+august160.dat                 \ AUGUST 160 airfoil 
+avistar.dat                   \ Hobbico R/C Avistar trainer airfoil 
+b29root.dat                   \ Boeing B-29 root airfoil 
+b29tip.dat                    \ Boeing B-29 tip airfoil 
+b540ols.dat                   \ Bell AH-1 rotor blade airfoil (operational loads survey) 
+b707a.dat                     \ Boeing Commercial Airplane Company model 707 airfoils 
+b707b.dat                     \ continued 
+b707c.dat                     \ continued 
+b707d.dat                     \ continued 
+b707e.dat                     \ continued 
+b737a.dat                     \ Boeing Commercial Airplane Company model 737 airfoils 
+b737b.dat                     \ continued 
+b737c.dat                     \ continued 
+b737d.dat                     \ continued 
+bacj.dat                      \ Boeing Commercial Airplane Company airfoil J 
+bacxxx.dat                    \ Boeing Commercial Airplane Company BACXXX Energy Efficient Transport Program airfoil 
+bambino6.dat                  \ Bambino 6 airfoil 
+be50.dat                      \ Verbitsky BE50 free flight airfoil (original) 
+be50sm.dat                    \ Verbitsky BE50 free flight airfoil (original) 
+boe103.dat                    \ Boeing 103 airfoil 
+boe106.dat                    \ Boeing 106 airfoil 
+bqm34.dat                     \ Ryan BQM-34 Firebee wing airfoil (NACA 63-014A W/NACA 0014 nose and thinned to .09899 to account for sweep) 
+bw3.dat                       \ Bergey BW-3 wind turbine airfoil (smoothed) 
+c141a.dat                     \ Lockheed-Georgia C-141 transonic wing airfoils 
+c141b.dat                     \ continued 
+c141c.dat                     \ continued 
+c141d.dat                     \ continued 
+c141e.dat                     \ continued 
+c141f.dat                     \ continued 
+c5a.dat                       \ Lockheed-Georgia C-5A transonic wing airfoils 
+c5b.dat                       \ continued 
+c5c.dat                       \ continued 
+c5d.dat                       \ continued 
+c5e.dat                       \ continued 
+cap21c.dat                    \ CAP 21 (TraCFoil) airfoil 
+cast102.dat                   \ CAST 10-2/DOA 2 transonic airfoil 
+ch10sm.dat                    \ Chuch Hollinger CH 10-48-13 high lift low Reynolds number airfoil 
+chen.dat                      \ University of Illinois at Urbana-Champaign / Chen high lift airfoil 
+clarkk.dat                    \ CLARK K airfoil 
+clarkv.dat                    \ CLARK V airfoil 
+clarkw.dat                    \ CLARK W airfoil 
+clarkx.dat                    \ CLARK X airfoil 
+clarky.dat                    \ CLARK Y airfoil 
+clarkyh.dat                   \ CLARK YH airfoil 
+clarkys.dat                   \ CLARK YS airfoil 
+clarkysm.dat                  \ CLARK Y airfoil (smoothed) 
+clarkz.dat                    \ CLARK Z airfoil 
+clarym15.dat                  \ CLARK YM15 airfoil 
+clarym18.dat                  \ CLARK YM18 airfoil 
+coanda1.dat                   \ Coanda 1 airfoil 
+coanda2.dat                   \ Coanda 2 airfoil 
+coanda3.dat                   \ Coanda 3 airfoil 
+cootie.dat                    \ Waco Cootie airfoil 
+cr001sm.dat                   \ Cody Robertson CR 001 R/C hand-launch low Reynolds number airfoil (smoothed) 
+cr1.dat                       \ Curtiss CR-1 general aviation airfoil 
+curtisc72.dat                 \ Curtis C-72 airfoil 
+dae11.dat                     \ Drela DAE11 low Reynolds number airfoil 
+dae21.dat                     \ Drela DAE21 low Reynolds number airfoil 
+dae31.dat                     \ Drela DAE31 low Reynolds number airfoil 
+dae51.dat                     \ Drela DAE51 low Reynolds number airfoil 
+davis.dat                     \ Consolidated/Davis airfoil (B-24 wing?) 
+davis_corrected.dat           \ Davis basic B-24 wing airfoil 
+davissm.dat                   \ Davis 3R F1B free flight airfoil (smoothed) 
+daytonwright6.dat             \ Dayton-Wright 6 airfoil 
+daytonwrightt1.dat            \ Dayton-Wright T-1 airfoil 
+dbln526.dat                   \ Sikorsky DBLN-526 double ended rotorcraft airfoil 
+defcnd1.dat                   \ Rutan DEFIANT canard BL20 airfoil 
+defcnd2.dat                   \ Rutan DEFIANT canard BL110 airfoil 
+defcnd3.dat                   \ Rutan DEFIANT canard BL145 airfoil 
+df101.dat                     \ David Fraser DF 101 low Reynolds number airfoil 
+df102.dat                     \ David Fraser DF 102 low Reynolds number airfoil 
+dfvlrr4.dat                   \ DFVLR R-4 transonic airfoil 
+dga1138.dat                   \ D.G.A. 1138 airfoil 
+dga1182.dat                   \ D.G.A. 1182 airfoil 
+dh4009sm.dat                  \ Dale House DH4009 (smoothed) used on the Storm R/C aerobatic aircraft 
+doa5.dat                      \ Dornier A-5 airfoil (reconstruction) (DO 228 wing) 
+dormoy.dat                    \ Dormoy airfoil 
+drgnfly.dat                   \ Dragonfly Canard airfoil 
+dsma523a.dat                  \ McDonnell/Douglas DSMA-523 transonic airfoil with sharp trailing edge 
+dsma523b.dat                  \ McDonnell/Douglas DSMA-523 transonic airfoil with blunt trailing edge 
+du8608418.dat                 \ Deflt University DU 86-084/18 low Reynolds number airfoil 
+du861372.dat                  \ Delft University DU 86-137/25 Airfoil 
+e1098.dat                     \ Eppler E1098 general aviation airfoil 
+e1200.dat                     \ Eppler E1200 general aviation airfoil 
+e1210.dat                     \ Eppler E1210 general aviation airfoil 
+e1211.dat                     \ Eppler E1211 general aviation airfoil 
+e1212.dat                     \ Eppler E1212 general aviation airfoil 
+e1212mod.dat                  \ Eppler E1212 general aviation airfoil (as modified for use as Quickie wing airfoil) 
+e1213.dat                     \ Eppler E1213 general aviation airfoil 
+e1214.dat                     \ Eppler E1214 general aviation airfoil 
+e1230.dat                     \ Eppler E1230 general aviation airfoil (Long-EZ and Defiant wing airfoil) 
+e1233.dat                     \ Eppler E1233 general aviation airfoil 
+e168.dat                      \ Eppler E168 low Reynolds number airfoil 
+e169.dat                      \ Eppler E169 low Reynolds number airfoil 
+e171.dat                      \ Eppler E171 low Reynolds number airfoil 
+e174.dat                      \ Eppler E174 low Reynolds number airfoil 
+e176.dat                      \ Eppler E176 low Reynolds number airfoil 
+e178.dat                      \ Eppler E178 low Reynolds number airfoil 
+e180.dat                      \ Eppler E180 low Reynolds number airfoil 
+e182.dat                      \ Eppler E182 low Reynolds number airfoil 
+e184.dat                      \ Eppler E184 low Reynolds number airfoil 
+e186.dat                      \ Eppler E186 low Reynolds number airfoil 
+e193.dat                      \ Eppler E193 low Reynolds number airfoil 
+e195.dat                      \ Eppler E195 low Reynolds number airfoil 
+e197.dat                      \ Eppler E197 low Reynolds number airfoil 
+e201.dat                      \ Eppler E201 low Reynolds number airfoil 
+e203.dat                      \ Eppler E203 low Reynolds number airfoil 
+e205.dat                      \ Eppler E205 low Reynolds number airfoil 
+e207.dat                      \ Eppler E207 low Reynolds number airfoil 
+e209.dat                      \ Eppler E209 low Reynolds number airfoil 
+e210.dat                      \ Eppler E210 low Reynolds number airfoil 
+e211.dat                      \ Eppler E211 low Reynolds number airfoil 
+e212.dat                      \ Eppler E212 low Reynolds number airfoil 
+e214.dat                      \ Eppler E214 low Reynolds number airfoil 
+e216.dat                      \ Eppler E216 low Reynolds number airfoil 
+e220.dat                      \ Eppler E220 low Reynolds number airfoil 
+e221.dat                      \ Eppler E221 low Reynolds number airfoil 
+e222.dat                      \ Eppler E222 low Reynolds number airfoil 
+e224.dat                      \ Eppler E224 low Reynolds number airfoil 
+e226.dat                      \ Eppler E226 low Reynolds number airfoil 
+e228.dat                      \ Eppler E228 low Reynolds number airfoil 
+e230.dat                      \ Eppler E230 airfoil 
+e231.dat                      \ Eppler E231 R/C sailplane airfoil 
+e266.dat                      \ Eppler E266 general purpose airfoil 
+e297.dat                      \ Eppler E297 tailplane airfoil 
+e325.dat                      \ Eppler E325 flying wing airfoil 
+e326.dat                      \ Eppler E326 flying wing airfoil 
+e327.dat                      \ Eppler E327 flying wing airfoil 
+e328.dat                      \ Eppler E328 flying wing airfoil 
+e329.dat                      \ Eppler E329 flying wing airfoil 
+e330.dat                      \ Eppler E330 flying wing airfoil 
+e331.dat                      \ Eppler E331 flying wing airfoil 
+e332.dat                      \ Eppler E332 flying wing airfoil 
+e333.dat                      \ Eppler E333 flying wing airfoil 
+e334.dat                      \ Eppler E334 flying wing airfoil 
+e335.dat                      \ Eppler E335 flying wing airfoil 
+e336.dat                      \ Eppler E336 flying wing airfoil 
+e337.dat                      \ Eppler E337 flying wing airfoil 
+e338.dat                      \ Eppler E338 flying wing airfoil 
+e339.dat                      \ Eppler E339 flying wing airfoil 
+e340.dat                      \ Eppler E340 flying wing airfoil 
+e341.dat                      \ Eppler E341 flying wing airfoil 
+e342.dat                      \ Eppler E342 flying wing airfoil 
+e343.dat                      \ Eppler E343 flying wing airfoil 
+e344.dat                      \ Eppler E344 flying wing airfoil 
+e360.dat                      \ Eppler E360 rotorcraft airfoil 
+e361.dat                      \ Eppler E361 rotorcraft airfoil 
+e374.dat                      \ Eppler E374 low Reynolds number airfoil 
+e376.dat                      \ Eppler E376 ultralight airfoil 
+e377.dat                      \ Eppler E377 ultralight airfoil 
+e377m.dat                     \ Eppler E377 (modified) ultralight airfoil 
+e378.dat                      \ Eppler E378 ultralight airfoil 
+e379.dat                      \ Eppler E379 ultralight airfoil 
+e385.dat                      \ Eppler E385 airfoil 
+e387.dat                      \ Eppler E387 low Reynolds number airfoil 
+e392.dat                      \ Eppler E392 low Reynolds number airfoil 
+e393.dat                      \ Eppler E393 airfoil 
+e395.dat                      \ Eppler E395 human powered aircraft airfoil 
+e396.dat                      \ Eppler E396 human powered aircraft airfoil 
+e397.dat                      \ Eppler E397 human powered aircraft airfoil 
+e398.dat                      \ Eppler E398 human powered aircraft airfoil 
+e399.dat                      \ Eppler E399 human powered aircraft airfoil 
+e403.dat                      \ Eppler E403 general purpose airfoil 
+e407.dat                      \ Eppler E407 sailplane airfoil 
+e417.dat                      \ Eppler E417 general purpose airfoil 
+e420.dat                      \ Eppler E420 high lift airfoil 
+e421.dat                      \ Eppler E421 high lift airfoil 
+e422.dat                      \ Eppler E422 high lift airfoil 
+e423.dat                      \ Eppler E423 high lift airfoil 
+e426.dat                      \ Eppler E426 airfoil 
+e428.dat                      \ Eppler E428 airfoil 
+e431.dat                      \ Eppler E431 sailplane airfoil 
+e432.dat                      \ Eppler E432 sailplane airfoil 
+e433.dat                      \ Eppler E433 sailplane airfoil 
+e434.dat                      \ Eppler E434 sailplane airfoil 
+e435.dat                      \ Eppler E435 sailplane airfoil 
+e471.dat                      \ Eppler E471 airfoil 
+e472.dat                      \ Eppler E472 aerobatic aircraft airfoil 
+e473.dat                      \ Eppler E473 aerobatic aircraft airfoil 
+e474.dat                      \ Eppler E474 aerobatic aircraft airfoil 
+e475.dat                      \ Eppler E475 aerobatic aircraft airfoil 
+e479.dat                      \ Eppler E479 aerobatic aircraft airfoil 
+e485.dat                      \ Eppler E485 tailplane airfoil 
+e49.dat                       \ Eppler E49 low Reynolds number airfoil 
+e502.dat                      \ Eppler E502 general purpose airfoil 
+e520.dat                      \ Eppler E520 tailplane airfoil 
+e521.dat                      \ Eppler E521 tailplane airfoil 
+e540.dat                      \ Eppler E540 general aviation airfoil 
+e541.dat                      \ Eppler E541 general aviation airfoil 
+e542.dat                      \ Eppler E542 general aviation airfoil 
+e543.dat                      \ Eppler E543 general aviation airfoil 
+e544.dat                      \ Eppler E544 general aviation airfoil 
+e545.dat                      \ Eppler E545 general aviation airfoil 
+e546.dat                      \ Eppler E546 general aviation airfoil 
+e547.dat                      \ Eppler E547 general aviation airfoil 
+e548.dat                      \ Eppler E548 general aviation airfoil 
+e549.dat                      \ Eppler E549 general aviation airfoil 
+e550.dat                      \ Eppler E550 general aviation airfoil 
+e551.dat                      \ Eppler E551 general aviation airfoil 
+e552.dat                      \ Eppler E552 general aviation airfoil 
+e553.dat                      \ Eppler E553 general aviation airfoil 
+e554.dat                      \ Eppler E554 general aviation airfoil 
+e555.dat                      \ Eppler E555 general aviation airfoil 
+e556.dat                      \ Eppler E556 general aviation airfoil 
+e557.dat                      \ Eppler E557 general aviation airfoil 
+e558.dat                      \ Eppler E558 general aviation airfoil 
+e559.dat                      \ Eppler E559 general aviation airfoil 
+e560.dat                      \ Eppler E560 general aviation airfoil 
+e561.dat                      \ Eppler E561 general aviation airfoil 
+e562.dat                      \ Eppler E562 general aviation airfoil 
+e58.dat                       \ Eppler E58 low Reynolds number airfoil 
+e580.dat                      \ Eppler E580 general purpose airfoil 
+e582.dat                      \ Eppler E582 sailplane airfoil 
+e583.dat                      \ Eppler E583 sailplane airfoil 
+e584.dat                      \ Eppler E584 sailplane airfoil 
+e585.dat                      \ Eppler E585 sailplane airfoil 
+e587.dat                      \ Eppler E587 sailplane airfoil 
+e59.dat                       \ Eppler E59 low Reynolds number airfoil 
+e591.dat                      \ Eppler E591 airfoil 
+e593.dat                      \ Eppler E593 airfoil 
+e598.dat                      \ Eppler E598 airfoil 
+e603.dat                      \ Eppler E603 general purpose airfoil 
+e604.dat                      \ Eppler E604 sailplane airfoil 
+e61.dat                       \ Eppler E61 low Reynolds number airfoil 
+e62.dat                       \ Eppler E62 low Reynolds number airfoil 
+e625.dat                      \ Eppler E625 airfoil 
+e63.dat                       \ Eppler E63 low Reynolds number airfoil 
+e635.dat                      \ Eppler E635 airfoil 
+e636.dat                      \ Eppler E636 airfoil 
+e637.dat                      \ Eppler E637 airfoil 
+e638.dat                      \ Eppler E638 airfoil 
+e639.dat                      \ Eppler E639 airfoil 
+e64.dat                       \ Eppler E64 low Reynolds number airfoil 
+e642.dat                      \ Eppler E642 sailplane airfoil 
+e654.dat                      \ Eppler E654 sailplane airfoil 
+e655.dat                      \ Eppler E655 sailplane airfoil 
+e656.dat                      \ Eppler E656 sailplane airfoil 
+e657.dat                      \ Eppler E657 sailplane airfoil 
+e66.dat                       \ Eppler E66 low Reynolds number airfoil 
+e662.dat                      \ Eppler E662 sailplane airfoil 
+e664.dat                      \ Eppler E664 variable geometry sailplane airfoil 
+e664ex.dat                    \ Eppler E664 (extended) variable geometry sailplane airfoil 
+e668.dat                      \ Eppler E668 sailplane airfoil 
+e67.dat                       \ Eppler E67 low Reynolds number airfoil 
+e678.dat                      \ Eppler E678 sailplane airfoil 
+e68.dat                       \ Eppler E68 low Reynolds number airfoil 
+e682.dat                      \ Eppler E682 sailplane airfoil 
+e694.dat                      \ Eppler E694 sailplane airfoil 
+e71.dat                       \ Eppler E71 low Reynolds number airfoil 
+e715.dat                      \ Eppler E715 tailplane airfoil 
+e748.dat                      \ Eppler E748 sailplane airfoil 
+e793.dat                      \ Eppler E793 general purpose airfoil (gyroflug speed canard canard) 
+e817.dat                      \ Eppler E817 hydrofoil 
+e818.dat                      \ Eppler E818 hydrofoil 
+e836.dat                      \ Eppler E836 hydrofoil 
+e837.dat                      \ Eppler E837 hydrofoil 
+e838.dat                      \ Eppler E838 hydrofoil 
+e850.dat                      \ Eppler E850 propeller airfoil 
+e851.dat                      \ Eppler E851 propeller airfoil 
+e852.dat                      \ Eppler E852 propeller airfoil 
+e853.dat                      \ Eppler E853 propeller airfoil 
+e854.dat                      \ Eppler E854 propeller airfoil 
+e855.dat                      \ Eppler E855 propeller airfoil 
+e856.dat                      \ Eppler E856 propeller airfoil 
+e857.dat                      \ Eppler E857 propeller airfoil 
+e858.dat                      \ Eppler E858 propeller airfoil 
+e862.dat                      \ Eppler E862 strut airfoil 
+e863.dat                      \ Eppler E863 strut airfoil 
+e864.dat                      \ Eppler E864 strut airfoil 
+e874.dat                      \ Eppler E874 hydrofoil 
+e904.dat                      \ Eppler E904 hydrofoil 
+e908.dat                      \ Eppler E908 hydrofoil 
+ea61009.dat                   \ Eppler EA 6(-1)-009 airfoil 
+ea61012.dat                   \ Eppler EA 6(-1)-012 airfoil 
+ea81006.dat                   \ Eppler EA 8(-1)-006 airfoil 
+ebambino7.dat                 \ E. Bambino airfoil 
+ec863914.dat                  \ Eppler EC 86(-3)-914 airfoil 
+eh0009.dat                    \ John Yost EH 0.0/9.0 for tailless R/C aircraft 
+eh1070.dat                    \ John Yost EH 1.0/7.0 for tailless R/C aircraft 
+eh1090.dat                    \ John Yost EH 1.0/9.0 for tailless R/C aircraft 
+eh1590.dat                    \ John Yost EH 1.5/9.0 for tailless R/C aircraft 
+eh2010.dat                    \ John Yost EH 2.0/10 for tailless R/C aircraft 
+eh2012.dat                    \ John Yost EH 2.0/12 for tailless R/C aircraft 
+eh2070.dat                    \ John Yost EH 2.0/7.0 for tailless R/C aircraft 
+eh2510.dat                    \ John Yost EH 2.5/10 for tailless R/C aircraft 
+eh3012.dat                    \ John Yost EH 3.0/12 for tailless R/C aircraft 
+eiffel10.dat                  \ Eiffel 10 (Wright) - 1903 Wright Flyer airfoil 
+eiffel371.dat                 \ Eiffel 371 (Monge) airfoil 
+eiffel385.dat                 \ Eiffel 385 (S.T. Ae) airfoil 
+eiffel428.dat                 \ Eiffel 428 (Bleriot) airfoil 
+eiffel430.dat                 \ Eiffel 430 (Lachassgne) airfoil 
+esa40.dat                     \ Evans Simitar Airfoil ESA40 for R/C tailless aircraft 
+falcon.dat                    \ Falcon airfoil used on the Carl Goldberg Falcon 56 Mk II R/C powerplane 
+fauvel.dat                    \ Fauvel 14% flying wing airfoil 
+fg1.dat                       \ Fage & Collins 1 airfoil 
+fg2.dat                       \ Fage & Collins 2 airfoil 
+fg3.dat                       \ Fage & Collins 3 airfoil 
+fg4.dat                       \ Fage & Collins 4 airfoil 
+fx049915.dat                  \ Wortmann FX 049-915 airfoil 
+fx05188.dat                   \ Wortmann FX 05-188 airfoil 
+fx05191.dat                   \ Wortmann FX 05-191 airfoil 
+fx057816.dat                  \ Wortmann FX 057-816 airfoil 
+fx05h126.dat                  \ Wortmann FX 05-H-126 rotorcraft airfoil 
+fx082512.dat                  \ Wortmann FX 082-512 airfoil 
+fx08s176.dat                  \ Wortmann FX 08-S-176 airfoil 
+fx2.dat                       \ Wortmann FX 2 airfoil 
+fx3.dat                       \ Wortmann FX 3 airfoil 
+fx38153.dat                   \ Wortmann FX 38-153 airfoil 
+fx60100.dat                   \ Wortmann FX 60-100 airfoil 
+fx601001.dat                  \ Wortmann FX 60-100 (126) airfoil 
+fx60100sm.dat                 \ Wortmann FX 60-100 airfoil (smoothed) 
+fx60126.dat                   \ Wortmann FX 60-126 airfoil 
+fx601261.dat                  \ Wortmann FX 60-126/1 airfoil 
+fx60157.dat                   \ Wortmann FX 60-157 airfoil 
+fx60160.dat                   \ Wortmann FX 60-160 airfoil 
+fx60177.dat                   \ Wortmann FX 60-177 airfoil 
+fx61140.dat                   \ Wortmann FX 61-140 airfoil 
+fx61147.dat                   \ Wortmann FX 61-147 airfoil 
+fx61163.dat                   \ Wortmann FX 61-163 airfoil 
+fx61168.dat                   \ Wortmann FX 61-168 airfoil 
+fx61184.dat                   \ Wortmann FX 61-184 airfoil 
+fx62k131.dat                  \ Wortmann FX 62-K-131/17 airfoil 
+fx62k153.dat                  \ Wortmann FX 62-K-153/20 airfoil 
+fx63100.dat                   \ Wortmann FX 63-100 airfoil 
+fx63110.dat                   \ Wortmann FX 63-110 airfoil 
+fx63120.dat                   \ Wortmann FX 63-120 airfoil 
+fx63137.dat                   \ Wortmann FX 63-137 human power aircraft airfoil (Puffin II and Liverpuffin) airfoil 
+fx63137sm.dat                 \ Wortmann FX 63-137 airfoil (smoothed) 
+fx63143.dat                   \ Wortmann FX 63-143 airfoil 
+fx63145.dat                   \ Wortmann FX 63-145 airfoil 
+fx63147.dat                   \ Wortmann FX 63-147 airfoil 
+fx63158.dat                   \ Wortmann FX 63-158 airfoil 
+fx6617a2.dat                  \ Wortmann FX 66-17AII-182 airfoil 
+fx6617ai.dat                  \ Wortmann FX 66-17AII-182 airfoil (as tested at NASA) 
+fx66182.dat                   \ Wortmann FX 66-182 airfoil 
+fx66196v.dat                  \ Wortmann FX 66-S-196 V1 airfoil 
+fx66a175.dat                  \ Wortmann FX 66-17A-175 airfoil 
+fx66h60.dat                   \ Wortmann FX 66-H-60 airfoil 
+fx66h80.dat                   \ Wortmann FX 66-H-80 airfoil 
+fx66s161.dat                  \ Wortmann FX 66-S-161 airfoil 
+fx66s171.dat                  \ Wortmann FX 66-S-171 airfoil 
+fx66s196.dat                  \ Wortmann FX 66-S-196 airfoil 
+fx67k150.dat                  \ Wortmann FX 67-K-150/17 airfoil 
+fx67k170.dat                  \ Wortmann FX 67-K-170/17 airfoil 
+fx68h120.dat                  \ Wortmann FX 68-H-120 airfoil 
+fx69274.dat                   \ Wortmann FX 69-274 airfoil 
+fx69h083.dat                  \ Bell/Wortmann FX 69-H-083 rotorcraft airfoil 
+fx69h098.dat                  \ Bell/Wortmann FX 69-H-098 rotorcraft airfoil 
+fx69pr281.dat                 \ Wortmann FX 69-PR-281 airfoil 
+fx71089a.dat                  \ Wortmann FX 71-089A airfoil 
+fx71120.dat                   \ Wortmann FX 71-120 airfoil 
+fx711520.dat                  \ Wortmann FX 71-L-150/20 airfoil 
+fx711525.dat                  \ Wortmann FX 71-L-150/25 airfoil 
+fx711530.dat                  \ Wortmann FX 71-L-150/30 airfoil 
+fx71l150.dat                  \ Wortmann FX 71-L-150/30 airfoil 
+fx72150a.dat                  \ Wortmann FX 72-MS-150A airfoil 
+fx72150b.dat                  \ Wortmann FX 72-MS-150B airfoil 
+fx72ls160.dat                 \ Wortmann FX 72-LS-160 airfoil 
+fx73170.dat                   \ Wortmann FX 73-170 airfoil 
+fx73170a.dat                  \ Wortmann FX 73-170 A airfoil 
+fx73cl1152.dat                \ Wortmann FX 73-CL1-152 airfoil 
+fx73cl2152.dat                \ Wortmann FX 73-CL2-152 airfoil 
+fx73cl3152.dat                \ Wortmann FX 73-CL3-152 airfoil 
+fx73k170.dat                  \ Wortmann FX 73-K-170/22 airfoil for use with flaps (K) 
+fx74080.dat                   \ Wortmann FX 74-080 airfoil 
+fx74130wp1.dat                \ Wortmann FX 74-130 WP1 airfoil 
+fx74130wp2.dat                \ Wortmann 74-130 WP2 airfoil 
+fx74130wp2mod.dat             \ Wortmann 74-130 WP2 MOD airfoil 
+fx74cl5140.dat                \ Wortmann FX 74-CL5-140 high lift airfoil 
+fx74cl6140.dat                \ Wortmann FX 74-CL6-140 airfoil 
+fx74modsm.dat                 \ Modified Wortmann FX 74-CL5-140 high lift airfoil 
+fx75141.dat                   \ Wortmann FX 75-141 airfoil 
+fx75193.dat                   \ Wortmann FX 75-193 airfoil 
+fx75vg166.dat                 \ Wortmann FX 75-VG-166/22 variable geometry airfoil 
+fx76100.dat                   \ Wortmann FX 76-100 symmetrical airfoil 
+fx76120.dat                   \ Wortmann FX 76-120 symmetrical airfoil 
+fx76mp120.dat                 \ Wortmann FX 76-MP-120 airfoil 
+fx76mp140.dat                 \ Wortmann FX 76-MP-140 airfoil 
+fx76mp160.dat                 \ Wortmann FX 76-MP-160 airfoil 
+fx77080.dat                   \ Wortmann FX 77-080 symmetrical airfoil 
+fx77w121.dat                  \ Wortmann FX 77-W-121 airfoil for use on wind turbines (W) 
+fx77w153.dat                  \ Wortmann FX 77-W-153 wind turbine airfoil 
+fx77w258.dat                  \ Wortmann FX 77-W-258 wind turbine airfoil 
+fx77w270.dat                  \ Wortmann FX 77-W-270 airfoil for use on wind turbines (W) 
+fx77w270s.dat                 \ Wortmann FX 77-W-270S airfoil for use on wind turbines (W) 
+fx77w343.dat                  \ Wortmann FX 77-W-343 wind turbine airfoil 
+fx78k140.dat                  \ Wortmann FX 78-K-140/20 airfoil for use with flaps (K) 
+fx78k140a20.dat               \ Wortmann FX 78-K-140 airfoil for use with flaps (K) A/20 
+fx78k150.dat                  \ Wortmann FX 78-K-150/20 airfoil for use with flaps (K) 
+fx78k161.dat                  \ Wortmann FX 78-K-161 airfoil for use with flaps (K) 
+fx78pk188.dat                 \ Wortmann FX 78-PK-188/20 variable geometry airfoil 
+fx79k144.dat                  \ Wortmann FX 79-K-144/17 sailplane airfoil 
+fx79l100.dat                  \ Wortmann FX 79-L-100 symmetrical airfoil 
+fx79l120.dat                  \ Wortmann FX 79-L-120 symmetrical airfoil 
+fx79w151a.dat                 \ Wortmann FX 79-W-151 airfoil for use on wind turbines (W) A 
+fx79w470a.dat                 \ Wortmann FX 79-W-470A airfoil for use on wind turbines (W) 
+fx79w660a.dat                 \ Wortman FX 79-W-660A airfoil for use on wind turbines (W) 
+fx80080.dat                   \ Wortmann FX 80-080 airfoil 
+fx83w108.dat                  \ Wortmann FX 83-W-108 airfoil for use on wind turbines (W) 
+fx83w160.dat                  \ Wortmann FX 83-W-160 airfoil for use on wind turbines (W) 
+fx83w227.dat                  \ Wortmann FX 83-W-227 airfoil for use on wind turbines (W) 
+fx84w097.dat                  \ Wortmann FX 84-W-097 airfoil for use on wind turbines (W) 
+fx84w127.dat                  \ Wortmann FX 84-W-127 airfoil for use on wind turbines (W) 
+fx84w140.dat                  \ Wortmann FX 84-W-140 airfoil for use on wind turbines (W) 
+fx84w150.dat                  \ Wortmann FX 84-W-150 airfoil for use on wind turbines (W) 
+fx84w175.dat                  \ Wortmann FX 84-W-175 airfoil for use on wind turbines (W) 
+fx84w218.dat                  \ Wortmann FX 84-W-218 airfoil for use on wind turbines (W) 
+fxl142k.dat                   \ Wortmann FX LIII-142 K 25 airfoil 
+fxlv152.dat                   \ Wortmann FX L V-152 airfoil 
+fxm2.dat                      \ Wortmann FX M2 airfoil 
+fxs02196.dat                  \ Wortmann FX S 02-196 airfoil 
+fxs03182.dat                  \ Wortmann FX S 03-182 airfoil 
+fxs21158.dat                  \ Wortmann FX S 02/1-158 airfoil 
+geminism.dat                  \ GEMINI R/C sailplane airfoil (smoothed) 
+giiia.dat                     \ Grumman/Gulfstream GIII transonic airfoils 
+giiib.dat                     \ continued 
+giiic.dat                     \ continued 
+giiid.dat                     \ continued 
+giiie.dat                     \ continued 
+giiif.dat                     \ continued 
+giiig.dat                     \ continued 
+giiih.dat                     \ continued 
+giiii.dat                     \ continued 
+giiij.dat                     \ continued 
+giiik.dat                     \ continued 
+giiil.dat                     \ continued 
+giiim.dat                     \ continued 
+giiin.dat                     \ continued 
+glennmartin2.dat              \ Glenn Martin 2 airfoil 
+glennmartin3.dat              \ Glenn Martin 3 airfoil 
+glennmartin4.dat              \ Glenn Martin 4 airfoil 
+gm15sm.dat                    \ Gilbert Morris GM15 F1C class free flight flapper airfoil 
+goe05k.dat                    \ Gottingen 5K airfoil 
+goe06k.dat                    \ Gottingen 6K airfoil 
+goe07k.dat                    \ Gottingen 7K airfoil 
+goe08k.dat                    \ Gottingen 8K airfoil 
+goe09k.dat                    \ Gottingen 9K airfoil 
+goe100.dat                    \ Gottingen 100 (Sopwith) airfoil 
+goe101.dat                    \ Gottingen 101 airfoil 
+goe10k.dat                    \ Gottingen 10K airfoil 
+goe113.dat                    \ Gottingen 113 airfoil 
+goe114.dat                    \ Gottingen 114 (MVA MK.1) airfoil 
+goe115.dat                    \ Gottingen 115 (MVA MK.2) airfoil 
+goe116.dat                    \ Gottingen 116 (MVA MK.3) airfoil 
+goe117.dat                    \ Gottingen 117 (MVA MK.4) airfoil 
+goe118.dat                    \ Gottingen 118 (MVA MK.7) airfoil 
+goe11k.dat                    \ Gottingen 11K airfoil 
+goe121.dat                    \ Gottingen 121 (MVA H.1) airfoil 
+goe122.dat                    \ Gottingen 122 (MVA H.2) airfoil 
+goe123.dat                    \ Gottingen 123 airfoil 
+goe124.dat                    \ Gottingen 124 (MVA H.4) airfoil 
+goe12k.dat                    \ Gottingen 12K airfoil 
+goe133.dat                    \ Gottingen 133 (MVA H.11) airfoil 
+goe134.dat                    \ Gottingen 134 (MVA H.12) airfoil 
+goe137.dat                    \ Gottingen 137 (MVA H.15) airfoil 
+goe13k.dat                    \ Gottingen 13K airfoil 
+goe14.dat                     \ Gottingen 14 airfoil 
+goe140.dat                    \ Gottingen 140 (MVA H.17) airfoil 
+goe142.dat                    \ Gottingen 142 (MVA H.19) airfoil 
+goe143.dat                    \ Gottingen 143 (MVA H.20) airfoil 
+goe144.dat                    \ Gottingen 144 (MVA H.21) airfoil 
+goe147.dat                    \ Gottingen 147 (MVA H.6) airfoil 
+goe14k.dat                    \ Gottingen 14K airfoil 
+goe15.dat                     \ Gottingen 15 airfoil 
+goe155.dat                    \ Gottingen 155 (SSW D.1) airfoil 
+goe15k.dat                    \ Gottingen 15K airfoil 
+goe164.dat                    \ Gottingen 164 (MVA MK.10) airfoil 
+goe165.dat                    \ Gottingen 165 (MVA MK.11) airfoil 
+goe167.dat                    \ Gottingen 167 (V.Karman PROP.2) airfoil 
+goe16k.dat                    \ Gottingen 16K airfoil 
+goe173.dat                    \ Gottingen 173 (Albatros 6020) airfoil 
+goe174.dat                    \ Gottingen 174 (Albatros 5020) airfoil 
+goe176.dat                    \ Gottingen 176 (Albatros 7020) airfoil 
+goe177.dat                    \ Gottingen 177 airfoil 
+goe178.dat                    \ Gottingen 178 airfoil 
+goe180.dat                    \ Gottingen 180 (MVA H.26) airfoil 
+goe182.dat                    \ Gottingen 182 (MVA H.27) airfoil 
+goe184.dat                    \ Gottingen 184 (MVA H.29) airfoil 
+goe187.dat                    \ Gottingen 187 (Schatte-Lanz 2U10) airfoil 
+goe188.dat                    \ Gottingen 188 (Schatte-Lanz 3U10) airfoil 
+goe190.dat                    \ Gottingen 190 (MVA MK.18) airfoil 
+goe195.dat                    \ Gottingen 195 airfoil 
+goe198.dat                    \ Gottingen 198 (L.F.G. 5294) airfoil 
+goe199.dat                    \ Gottingen 199 (L.F.G. 5406) airfoil 
+goe207.dat                    \ Gottingen 207 (AVIATIK V8) airfoil 
+goe210.dat                    \ Gottingen 210 (DAIMLER) airfoil 
+goe217.dat                    \ Gottingen 217 (MVA MK.12) airfoil 
+goe222.dat                    \ Gottingen 222 (MVA H.33) airfoil 
+goe223.dat                    \ Gottingen 223 (MVA H.34) airfoil 
+goe225.dat                    \ Gottingen 225 (MVA H.35) airfoil 
+goe226.dat                    \ Gottingen 226 (MVA H.36) airfoil 
+goe227.dat                    \ Gottingen 227 (MVA H.37) airfoil 
+goe228.dat                    \ Gottingen 228 (MVA H.38) airfoil 
+goe229.dat                    \ Gottingen 229 (MVA H.39) airfoil 
+goe233.dat                    \ Gottingen 233 (MVA CA4) airfoil 
+goe234.dat                    \ Gottingen 234 (MVA CA5) airfoil 
+goe235.dat                    \ Gottingen 235 (SCHATTE-LANZ) airfoil 
+goe238.dat                    \ Gottingen 238 (HANSA-BRANDENBURG) airfoil 
+goe239.dat                    \ Gottingen 239 (MVA H.31) airfoil 
+goe240.dat                    \ Gottingen 240 (KOLLER) airfoil 
+goe241.dat                    \ Gottingen 241 (MVA PR.1) airfoil 
+goe242.dat                    \ Gottingen 242 (MVA PR.2) airfoil 
+goe243.dat                    \ Gottingen 243 (MVA PR.3) airfoil 
+goe244.dat                    \ Gottingen 244 (MVA PR.4) airfoil 
+goe255.dat                    \ Gottingen 255 (MVA CA.6) airfoil 
+goe256.dat                    \ Gottingen 256 (JUNKERS E) airfoil 
+goe257.dat                    \ Gottingen 257 airfoil 
+goe264.dat                    \ Gottingen 264 airfoil 
+goe265.dat                    \ Gottingen 265 airfoil 
+goe269.dat                    \ Gottingen 269 airfoil 
+goe274.dat                    \ Gottingen 274 (DAIMLER V) airfoil 
+goe275.dat                    \ Gottingen 275 (DAIMLER VI) airfoil 
+goe276.dat                    \ Gottingen 276 (DAIMLER VII) airfoil 
+goe277.dat                    \ Gottingen 277 (DAIMLER VIII) airfoil 
+goe278.dat                    \ Gottingen 278 (DAIMLER IX) airfoil 
+goe279.dat                    \ Gottingen 279 (DAIMLER X) airfoil 
+goe280.dat                    \ Gottingen 280 (DAIMLER XI) airfoil 
+goe281.dat                    \ Gottingen 281 (DAIMLER XII) airfoil 
+goe282.dat                    \ Gottingen 282 (DAIMLER XIII) airfoil 
+goe284.dat                    \ Gottingen 284 airfoil 
+goe285.dat                    \ Gottingen 285 airfoil 
+goe286.dat                    \ Gottingen 286 airfoil 
+goe287.dat                    \ Gottingen 287 airfoil 
+goe288.dat                    \ Gottingen 288 airfoil 
+goe289.dat                    \ Gottingen 289 (MVA 289) airfoil 
+goe290.dat                    \ Gottingen 290 (MVA 290) airfoil 
+goe298.dat                    \ Gottingen 298 airfoil 
+goe29b.dat                    \ Gottingen 29B airfoil 
+goe300.dat                    \ Gottingen 300 (Friedrichshafen G20) airfoil 
+goe301.dat                    \ Gottingen 301 (Friedrichshafen G 13) airfoil 
+goe303.dat                    \ Gottingen 303 (Friedrichshafen G03) airfoil 
+goe304.dat                    \ Gottingen 304 (Friedrichshafen G02) airfoil 
+goe308.dat                    \ Gottingen 308 (MVA H.40) airfoil 
+goe309.dat                    \ Gottingen 309 (MVA H.41) airfoil 
+goe310.dat                    \ Gottingen 310 (MVA H.42) airfoil 
+goe311.dat                    \ Gottingen 311 (MVA H.43) airfoil 
+goe314.dat                    \ Gottingen 314 (Hansa-Brandenburg) airfoil 
+goe315.dat                    \ Gottingen 315 (Hansa-Brandenburg III.5) airfoil 
+goe316.dat                    \ Gottingen 316 (Hansa-Brandenburg IV.5) airfoil 
+goe318.dat                    \ Gottingen 318 (Hansa-Brandenburg VI.5) airfoil 
+goe319.dat                    \ Gottingen 319 (Hansa-Brandenburg II) airfoil 
+goe320.dat                    \ Gottingen 320 (Hansa-Brandenburg II.1) airfoil 
+goe321.dat                    \ Gottingen 321 (Hansa-Brandenburg III.1) airfoil 
+goe322.dat                    \ Gottingen 322 (Hansa-Brandenburg IV.1) airfoil 
+goe323.dat                    \ Gottingen 323 (Hansa-Brandenburg V.1) airfoil 
+goe324.dat                    \ Gottingen 324 (Hansa-Brandenburg) airfoil 
+goe325.dat                    \ Gottingen 325 (Pfalz 54) airfoil 
+goe326.dat                    \ Gottingen 326 (Pfalz 55) airfoil 
+goe328.dat                    \ Gottingen 328 airfoil 
+goe329.dat                    \ Gottingen 329 (Pfalz 58) airfoil 
+goe330.dat                    \ Gottingen 330 (Pfalz 59) airfoil 
+goe331.dat                    \ Gottingen 331 (Pfalz 60) airfoil 
+goe332.dat                    \ Gottingen 332 (Pfalz 61) airfoil 
+goe335.dat                    \ Gottingen 335 (D.F.W.) airfoil 
+goe336.dat                    \ Gottingen 336 (MVA H.44) airfoil 
+goe342.dat                    \ Gottingen 342 airfoil 
+goe344.dat                    \ Gottingen 344 (Pfalz 71) airfoil 
+goe346.dat                    \ Gottingen 346 (Friedrichshafen-Staaken) airfoil 
+goe358.dat                    \ Gottingen 358 airfoil 
+goe359.dat                    \ Gottingen 359 airfoil 
+goe360.dat                    \ Gottingen 360 airfoil 
+goe361.dat                    \ Gottingen 361 airfoil 
+goe362.dat                    \ Gottingen 362 airfoil 
+goe363.dat                    \ Gottingen 363 airfoil 
+goe364.dat                    \ Gottingen 364 airfoil 
+goe365.dat                    \ Gottingen 365 airfoil 
+goe366.dat                    \ Gottingen 366 airfoil 
+goe367.dat                    \ Gottingen 367 airfoil 
+goe368.dat                    \ Gottingen 368 airfoil 
+goe369.dat                    \ Gottingen 369 airfoil 
+goe370.dat                    \ Gottingen 370 airfoil 
+goe371.dat                    \ Gottingen 371 airfoil 
+goe372.dat                    \ Gottingen 372 airfoil 
+goe373.dat                    \ Gottingen 373 airfoil 
+goe374.dat                    \ Gottingen 374 airfoil 
+goe375.dat                    \ Gottingen 375 airfoil 
+goe376.dat                    \ Gottingen 376 airfoil 
+goe377.dat                    \ Gottingen 377 airfoil 
+goe379.dat                    \ Gottingen 379 airfoil 
+goe380.dat                    \ Gottingen 380 airfoil 
+goe381.dat                    \ Gottingen 381 airfoil 
+goe382.dat                    \ Gottingen 382 airfoil 
+goe383.dat                    \ Gottingen 383 airfoil 
+goe384.dat                    \ Gottingen 384 airfoil 
+goe385.dat                    \ Gottingen 385 airfoil 
+goe386.dat                    \ Gottingen 386 airfoil 
+goe387.dat                    \ Gottingen 387 airfoil 
+goe388.dat                    \ Gottingen 388 airfoil 
+goe389.dat                    \ Gottingen 389 airfoil 
+goe390.dat                    \ Gottingen 390 airfoil 
+goe391.dat                    \ Gottingen 391 airfoil 
+goe392.dat                    \ Gottingen 392 airfoil 
+goe393.dat                    \ Gottingen 393 airfoil 
+goe394.dat                    \ Gottingen 394 airfoil 
+goe395.dat                    \ Gottingen 395 airfoil 
+goe396.dat                    \ Gottingen 396 airfoil 
+goe397.dat                    \ Gottingen 397 airfoil 
+goe398.dat                    \ Gottingen 398 airfoil 
+goe399.dat                    \ Gottingen 399 airfoil 
+goe400.dat                    \ Gottingen 400 airfoil 
+goe401.dat                    \ Gottingen 401 airfoil 
+goe402.dat                    \ Gottingen 402 airfoil 
+goe403.dat                    \ Gottingen 403 airfoil 
+goe404.dat                    \ Gottingen 404 airfoil 
+goe405.dat                    \ Gottingen 405 airfoil 
+goe406.dat                    \ Gottingen 406 airfoil 
+goe407.dat                    \ Gottingen 407 airfoil 
+goe408.dat                    \ Gottingen 408 airfoil 
+goe409.dat                    \ Gottingen 409 airfoil 
+goe410.dat                    \ Gottingen 410 airfoil 
+goe411.dat                    \ Gottingen 411 airfoil 
+goe412.dat                    \ Gottingen 412 airfoil 
+goe413.dat                    \ Gottingen 413 airfoil 
+goe414.dat                    \ Gottingen 414 airfoil 
+goe415.dat                    \ Gottingen 415 airfoil 
+goe416a.dat                   \ Gottingen 416A airfoil 
+goe417.dat                    \ Gottingen 417 airfoil 
+goe417a.dat                   \ Gottingen 417A (GEW. PLATTE) airfoil 
+goe418.dat                    \ Gottingen 418 airfoil 
+goe419.dat                    \ Gottingen 419 airfoil 
+goe420.dat                    \ Gottingen 420 airfoil 
+goe421.dat                    \ Gottingen 421 airfoil 
+goe422.dat                    \ Gottingen 422 airfoil 
+goe423.dat                    \ Gottingen 423 airfoil 
+goe424.dat                    \ Gottingen 424 airfoil 
+goe425.dat                    \ Gottingen 425 airfoil 
+goe426.dat                    \ Gottingen 426 airfoil 
+goe427.dat                    \ Gottingen 427 airfoil 
+goe428.dat                    \ Gottingen 428 airfoil 
+goe429.dat                    \ Gottingen 429 airfoil 
+goe430.dat                    \ Gottingen 430 airfoil 
+goe431.dat                    \ Gottingen 431 airfoil 
+goe432.dat                    \ Gottingen 432 airfoil 
+goe433.dat                    \ Gottingen 433 airfoil 
+goe434.dat                    \ Gottingen 434 airfoil 
+goe435.dat                    \ Gottingen 435 airfoil 
+goe436.dat                    \ Gottingen 436 airfoil 
+goe437.dat                    \ Gottingen 437 airfoil 
+goe438.dat                    \ Gottingen 438 airfoil 
+goe439.dat                    \ Gottingen 439 airfoil 
+goe440.dat                    \ Gottingen 440 airfoil 
+goe441.dat                    \ Gottingen 441 airfoil 
+goe442.dat                    \ Gottingen 442 airfoil 
+goe443.dat                    \ Gottingen 443 airfoil 
+goe444.dat                    \ Gottingen 444 airfoil 
+goe445.dat                    \ Gottingen 445 airfoil 
+goe446.dat                    \ Gottingen 446 airfoil 
+goe447.dat                    \ Gottingen 447 airfoil 
+goe448.dat                    \ Gottingen 448 airfoil 
+goe449.dat                    \ Gottingen 449 airfoil 
+goe450.dat                    \ Gottingen 450 airfoil 
+goe451.dat                    \ Gottingen 451 airfoil 
+goe456.dat                    \ Gottingen 456 airfoil 
+goe457.dat                    \ Gottingen 457 airfoil 
+goe458.dat                    \ Gottingen 458 airfoil 
+goe459.dat                    \ Gottingen 459 airfoil 
+goe460.dat                    \ Gottingen 460 airfoil 
+goe462.dat                    \ Gottingen 462 airfoil 
+goe464.dat                    \ Gottingen 464 airfoil 
+goe474.dat                    \ Gottingen 474 airfoil 
+goe476.dat                    \ Gottingen 476 airfoil 
+goe477.dat                    \ Gottingen 477 airfoil 
+goe478.dat                    \ Gottingen 478 airfoil 
+goe479.dat                    \ Gottingen 479 airfoil 
+goe480.dat                    \ Gottingen 480 airfoil 
+goe481.dat                    \ Gottingen 481 airfoil 
+goe481a.dat                   \ Gottingen 481A airfoil 
+goe482.dat                    \ Gottingen 482 airfoil 
+goe483.dat                    \ Gottingen 483 airfoil 
+goe484.dat                    \ Gottingen 484 airfoil 
+goe488.dat                    \ Gottingen 488 airfoil 
+goe490.dat                    \ Gottingen 490 airfoil 
+goe491.dat                    \ Gottingen 491 airfoil 
+goe492.dat                    \ Gottingen 492 airfoil 
+goe493.dat                    \ Gottingen 493 airfoil 
+goe494.dat                    \ Gottingen 494 airfoil 
+goe495.dat                    \ Gottingen 495 airfoil 
+goe496.dat                    \ Gottingen 496 airfoil 
+goe497.dat                    \ Gottingen 497 airfoil 
+goe498.dat                    \ Gottingen 498 airfoil 
+goe499.dat                    \ Gottingen 499 airfoil 
+goe500.dat                    \ Gottingen 500 airfoil 
+goe501.dat                    \ Gottingen 501 airfoil 
+goe502.dat                    \ Gottingen 502 airfoil 
+goe503.dat                    \ Gottingen 503 airfoil 
+goe504.dat                    \ Gottingen 504 airfoil 
+goe505.dat                    \ Gottingen 505 airfoil 
+goe506.dat                    \ Gottingen 506 airfoil 
+goe507.dat                    \ Gottingen 507 airfoil 
+goe508.dat                    \ Gottingen 508 airfoil 
+goe509.dat                    \ Gottingen 509 airfoil 
+goe510.dat                    \ Gottingen 510 airfoil 
+goe511.dat                    \ Gottingen 511 airfoil 
+goe512.dat                    \ Gottingen 512 airfoil 
+goe513.dat                    \ Gottingen 513 airfoil 
+goe514.dat                    \ Gottingen 514 airfoil 
+goe515.dat                    \ Gottingen 515 airfoil 
+goe517.dat                    \ Gottingen 517 airfoil 
+goe518.dat                    \ Gottingen 518 airfoil 
+goe522.dat                    \ Gottingen 522 airfoil 
+goe523.dat                    \ Gottingen 523 airfoil 
+goe525.dat                    \ Gottingen 525 airfoil 
+goe526.dat                    \ Gottingen 526 airfoil 
+goe527.dat                    \ Gottingen 527 airfoil 
+goe528.dat                    \ Gottingen 528 airfoil 
+goe529.dat                    \ Gottingen 529 airfoil 
+goe530.dat                    \ Gottingen 530 airfoil 
+goe531.dat                    \ Gottingen 531 airfoil 
+goe532.dat                    \ Gottingen 532 airfoil 
+goe533.dat                    \ Gottingen 533 airfoil 
+goe534.dat                    \ Gottingen 534 airfoil 
+goe535.dat                    \ Gottingen 535 airfoil 
+goe54.dat                     \ Gottingen 54 airfoil 
+goe546.dat                    \ Gottingen 546 airfoil 
+goe547.dat                    \ Gottingen 547 airfoil 
+goe548.dat                    \ Gottingen 548 airfoil 
+goe549.dat                    \ Gottingen 549 airfoil 
+goe55.dat                     \ Gottingen 55 airfoil 
+goe550.dat                    \ Gottingen 550 airfoil 
+goe553.dat                    \ Gottingen 553 airfoil 
+goe559.dat                    \ Gottingen 559 airfoil 
+goe561.dat                    \ Gottingen 561 airfoil 
+goe562.dat                    \ Gottingen 562 airfoil 
+goe563.dat                    \ Gottingen 563 airfoil 
+goe564.dat                    \ Gottingen 564 airfoil 
+goe565.dat                    \ Gottingen 565 airfoil 
+goe566.dat                    \ Gottingen 566 airfoil 
+goe567.dat                    \ Gottingen 567 airfoil 
+goe57.dat                     \ Gottingen 57 airfoil 
+goe570.dat                    \ Gottingen 570 airfoil 
+goe571.dat                    \ Gottingen 571 airfoil 
+goe572.dat                    \ Gottingen 572 airfoil 
+goe573.dat                    \ Gottingen 573 airfoil 
+goe574.dat                    \ Gottingen 574 airfoil 
+goe575.dat                    \ Gottingen 575 airfoil 
+goe584.dat                    \ Gottingen 584 airfoil 
+goe585.dat                    \ Gottingen 585 airfoil 
+goe587.dat                    \ Gottingen 587 airfoil 
+goe590.dat                    \ Gottingen 590 airfoil 
+goe591.dat                    \ Gottingen 591 airfoil 
+goe592.dat                    \ Gottingen 592 airfoil 
+goe593.dat                    \ Gottingen 593 airfoil 
+goe595.dat                    \ Gottingen 595 airfoil 
+goe596.dat                    \ Gottingen 596 airfoil 
+goe598.dat                    \ Gottingen 598 airfoil 
+goe599.dat                    \ Gottingen 599 airfoil 
+goe600.dat                    \ Gottingen 600 airfoil 
+goe601.dat                    \ Gottingen 601 airfoil 
+goe602.dat                    \ Gottingen 602 airfoil 
+goe602m.dat                   \ Gottingen 602 MOD airfoil 
+goe604.dat                    \ Gottingen 604 airfoil 
+goe610b.dat                   \ Gottingen 610 B airfoil 
+goe610bm.dat                  \ Gottingen 610-B MOD airfoil 
+goe611.dat                    \ Gottingen 611 airfoil 
+goe612.dat                    \ Gottingen 612 airfoil 
+goe613.dat                    \ Gottingen 613 airfoil 
+goe614.dat                    \ Gottingen 614 airfoil 
+goe615.dat                    \ Gottingen 615 airfoil 
+goe617.dat                    \ Gottingen 617 airfoil 
+goe619.dat                    \ Gottingen 619 airfoil 
+goe620.dat                    \ Gottingen 620 airfoil 
+goe621.dat                    \ Gottingen 621 airfoil 
+goe622.dat                    \ Gottingen 622 airfoil 
+goe623.dat                    \ Gottingen 623 airfoil 
+goe624.dat                    \ Gottingen 624 airfoil 
+goe625.dat                    \ Gottingen 625 airfoil 
+goe626.dat                    \ Gottingen 626 airfoil 
+goe627.dat                    \ Gottingen 627 airfoil 
+goe628.dat                    \ Gottingen 628 airfoil 
+goe629.dat                    \ Gottingen 629 airfoil 
+goe63.dat                     \ Gottingen 63 airfoil 
+goe630.dat                    \ Gottingen 630 airfoil 
+goe632.dat                    \ Gottingen 632 airfoil 
+goe633.dat                    \ Gottingen 633 airfoil 
+goe645.dat                    \ Gottingen 645 airfoil 
+goe646.dat                    \ Gottingen 646 airfoil 
+goe647.dat                    \ Gottingen 647 airfoil 
+goe648.dat                    \ Gottingen 648 airfoil 
+goe650.dat                    \ Gottingen 650 airfoil 
+goe652.dat                    \ Gottingen 652 airfoil 
+goe654.dat                    \ Gottingen 654 airfoil 
+goe655.dat                    \ Gottingen 655 airfoil 
+goe670.dat                    \ Gottingen 670 airfoil 
+goe673.dat                    \ Gottingen 673 airfoil 
+goe675.dat                    \ Gottingen 675 airfoil 
+goe676.dat                    \ Gottingen 676 (= M 12) airfoil 
+goe677.dat                    \ Gottingen 677 (= M 6) airfoil 
+goe679.dat                    \ Gottingen 679 airfoil 
+goe681.dat                    \ Gottingen 681 airfoil 
+goe682.dat                    \ Gottingen 682 airfoil 
+goe683.dat                    \ Gottingen 683 airfoil 
+goe685.dat                    \ Gottingen 685 airfoil 
+goe692.dat                    \ Gottingen 692 airfoil 
+goe693.dat                    \ Gottingen 693 airfoil 
+goe701.dat                    \ Gottingen 701 airfoil 
+goe702.dat                    \ Gottingen 702 airfoil 
+goe703.dat                    \ Gottingen 703 airfoil 
+goe704.dat                    \ Gottingen 704 airfoil 
+goe711.dat                    \ Gottingen 711 airfoil 
+goe723.dat                    \ Gottingen 723 airfoil 
+goe735.dat                    \ Gottingen 735 airfoil 
+goe738.dat                    \ Gottingen 738 airfoil 
+goe741.dat                    \ Gottingen 741 airfoil 
+goe744.dat                    \ Gottingen 744 airfoil 
+goe746.dat                    \ Gottingen 746 airfoil 
+goe758.dat                    \ Gottingen 758 airfoil 
+goe765.dat                    \ Gottingen 765 airfoil (Me 163 Komet) 
+goe766.dat                    \ Gottingen 766 airfoil 
+goe767.dat                    \ Gottingen 767 airfoil 
+goe769.dat                    \ Gottingen 769 airfoil 
+goe770.dat                    \ Gottingen 770 airfoil 
+goe775.dat                    \ Gottingen 775 airfoil 
+goe776.dat                    \ Gottingen 776 airfoil 
+goe777.dat                    \ Gottingen 777 airfoil 
+goe780.dat                    \ Gottingen 780 airfoil 
+goe79.dat                     \ Gottingen 79 (Pfalz 11) airfoil 
+goe795.dat                    \ Gottingen 795 airfoil 
+goe795sm.dat                  \ Gottingen 795 airfoil (smoothed) 
+goe796.dat                    \ Gottingen 796 airfoil 
+goe797.dat                    \ Gottingen 797 airfoil 
+goe798.dat                    \ Gottingen 798 airfoil 
+goe801.dat                    \ Gottingen 801 (MVA 301) airfoil 
+goe802.dat                    \ Gottingen 802 airfoil 
+goe802a.dat                   \ Gottingen 802 A airfoil 
+goe802b.dat                   \ Gottingen 802 B airfoil 
+goe803h.dat                   \ Gottingen 803 (Hacklinger) airfoil 
+goe804.dat                    \ Gottingen 804 (EA 8) airfoil 
+goe81.dat                     \ Gottingen 81 airfoil 
+goe92.dat                     \ Gottingen 92 airfoil 
+griffith30SymSuction.dat      \ Griffith 30% suction airfoil 
+gs1.dat                       \ Gluharoff/Sikorsky GS-1 airfoil 
+gu255118.dat                  \ University of Glasgow GU 25-5(11)8 canard airfoil (Quickie, Varieze and Long-EZ canard airfoil) 
+hh02.dat                      \ Hughes helicopters HH-02 rotorcraft airfoil 
+hobie.dat                     \ Hobie Hawk airfoil (Hobie Hawk R/C sailplane) 
+hobiesm.dat                   \ Hobie Hawk airfoil (Hobie Hawk R/C sailplane) 
+hq010.dat                     \ Quabeck HQ 0/10 R/C sailplane airfoil 
+hq07.dat                      \ Quabeck HQ 0/7 R/C sailplane airfoil 
+hq09.dat                      \ Quabeck HQ 0/9 R/C sailplane airfoil 
+hq1010.dat                    \ Quabeck HQ 1.0/10 R/C sailplane airfoil 
+hq1012.dat                    \ Quabeck HQ 1.0/12 R/C sailplane airfoil 
+hq108.dat                     \ Quabeck HQ 1.0/8 R/C sailplane airfoil 
+hq109.dat                     \ Quabeck HQ 1.0/9 R/C sailplane airfoil 
+hq1510.dat                    \ Quabeck HQ 1.5/10 R/C sailplane airfoil 
+hq1511.dat                    \ Quabeck HQ 1.5/11 R/C sailplane airfoil 
+hq1512.dat                    \ Quabeck HQ 1.5/12 R/C sailplane airfoil 
+hq158.dat                     \ Quabeck HQ 1.5/8 R/C sailplane airfoil 
+hq1585.dat                    \ Quabeck HQ 1.5/8.5 R/C sailplane airfoil 
+hq159.dat                     \ Quabeck HQ 1.5/9 R/C sailplane airfoil 
+hq159b.dat                    \ Quabeck HQ 1.5/9 B R/C sailplane airfoil 
+hq2010.dat                    \ Quabeck HQ 2.0/10 R/C sailplane airfoil 
+hq2012.dat                    \ Quabeck HQ 2.0/12 R/C sailplane airfoil 
+hq208.dat                     \ Quabeck HQ 2.0/8 R/C sailplane airfoil 
+hq209.dat                     \ Quabeck HQ 2.0/9 R/C sailplane airfoil 
+hq2090sm.dat                  \ Quabeck HQ 2.0/9 R/C sailplane airfoil (smoothed) 
+hq2195.dat                    \ Quabeck HQ 2.1/9.5 R/C sailplane airfoil 
+hq2510.dat                    \ Quabeck HQ 2.5/10 R/C sailplane airfoil 
+hq2511.dat                    \ Quabeck HQ 2.5/11 R/C sailplane airfoil 
+hq2512.dat                    \ Quabeck HQ 2.5/12 R/C sailplane airfoil 
+hq258.dat                     \ Quabeck HQ 2.5/8 R/C sailplane airfoil 
+hq259.dat                     \ Quabeck HQ 2.5/9 R/C sailplane airfoil 
+hq2590sm.dat                  \ Quabeck HQ 2.5/9 R/C sailplane airfoil (smoothed) 
+hq259b.dat                    \ Quabeck HQ 2.5/9 B R/C sailplane airfoil 
+hq300gd2.dat                  \ DFVLR/Braunschweig Horstmann and Quast HQ-300 GD(MOD 2) sailplane airfoil 
+hq3010.dat                    \ Quabeck HQ 3.0/10 R/C sailplane airfoil 
+hq3011.dat                    \ Quabeck HQ 3.0/11 R/C sailplane airfoil 
+hq3012.dat                    \ Quabeck HQ 3.0/12 R/C sailplane airfoil 
+hq3013.dat                    \ Quabeck HQ 3.0/13 R/C sailplane airfoil 
+hq3014.dat                    \ Quabeck HQ 3.0/14 R/C sailplane airfoil 
+hq3015.dat                    \ Quabeck HQ 3.0/15 R/C sailplane airfoil 
+hq308.dat                     \ Quabeck HQ 3.0/8 R/C sailplane airfoil 
+hq309.dat                     \ Quabeck HQ 3.0/9 R/C sailplane airfoil 
+hq3510.dat                    \ Quabeck HQ 3.5/10 R/C sailplane airfoil 
+hq3512.dat                    \ Quabeck HQ 3.5/12 R/C sailplane airfoil 
+hq3513.dat                    \ Quabeck HQ 3.5/13 R/C sailplane airfoil 
+hq3514.dat                    \ Quabeck HQ 3.5/14 R/C sailplane airfoil 
+hq3518.dat                    \ Quabeck HQ 3.5/18 R/C sailplane airfoil 
+hq358.dat                     \ Quabeck HQ 3.5/8 R/C sailplane airfoil 
+hq359.dat                     \ Quabeck HQ 3.5/9 R/C sailplane airfoil 
+hsnlf213.dat                  \ NASA/Langley HSNLF(1)-0213 high speed natural laminar flow airfoil 
+ht05.dat                      \ Drela HT05 airfoil 
+ht08.dat                      \ Drela HT08 airfoil 
+ht12.dat                      \ Drela HT12 airfoil 
+ht13.dat                      \ Drela HT13 airfoil 
+ht14.dat                      \ Drela HT14 airfoil 
+ht21.dat                      \ Drela HT21 airfoil 
+ht22.dat                      \ Drela HT22 airfoil 
+ht23.dat                      \ Drela HT23 airfoil 
+ht33.dat                      \ Drela HT33 airfoil 
+ht34.dat                      \ Drela HT34 airfoil 
+ht35.dat                      \ Drela HT35 airfoil 
+isa571.dat                    \ I.S.A. 571 airfoil 
+isa960.dat                    \ I.S.A. 960 airfoil 
+isa961.dat                    \ I.S.A. 961 airfoil 
+isa962.dat                    \ I.S.A. 962 airfoil 
+j5012.dat                     \ Jef Raskin (originator of the Apple Macintosh Project) J5012 airfoil 
+jn153.dat                     \ Narramore JN153 airfoil 
+joukowsk.dat                  \ 12% Joukowski airfoil 
+k1.dat                        \ NYU/Grumman K-1 transonic airfoil (GAC .75-.63-11.6) 
+k2.dat                        \ Grumman K-2 transonic airfoil (GAC .80-.53-10.3) 
+k3.dat                        \ Grumman K-3 transonic airfoil (GAC .70-.83-17.5) 
+k3311.dat                     \ Leon Kincaid K3311 airfoil (original) 
+k3311sm.dat                   \ Leon Kincaid K3311 airfoil (smoothed) 
+kc135a.dat                    \ Boeing KC-135 transonic airfoils 
+kc135b.dat                    \ continued 
+kc135c.dat                    \ continued 
+kc135d.dat                    \ continued 
+kenmar.dat                    \ University of Alberta/Kennedy and Marsden high lift airfoil 
+l188root.dat                  \ Lockheed L-188/P-3 root airfoil NACA 0014 -1.10 40/1.051 Cli=.3 a=.8 
+l188tip.dat                   \ Lockheed L-188/P-3 tip airfoil NACA 0012 -1.10 40/1.051 Cli=.4 a=.8 
+l7769.dat                     \ Lissaman 7769 human powered aircraft airfoil 
+la2573a.dat                   \ Liebeck LA2573A airfoil 
+la203a.dat                    \ Douglas/Liebeck LA203A high lift airfoil 
+lds2.dat                      \ LDS-2 airfoil 
+lg10sc.dat                    \ Lockheed-Georgia/NASA/Blackwell rotorcraft airfoil 
+lnv109a.dat                   \ Douglas/Liebeck LNV109A high lift airfoil 
+lrn1007.dat                   \ LRN(1)-1007 low Reynolds number airfoil 
+ls013.dat                     \ NASA/Langley LS(1)-0013 general aviation airfoil 
+ls413.dat                     \ NASA/Langley LS(1)-0413 (GA(W)-2) general aviation airfoil 
+ls413mod.dat                  \ NASA/Langley LS(1)-0413MOD general aviation airfoil 
+ls417.dat                     \ NASA/Langley/Whitcomb LS(1)-0417 (GA(W)-1) general aviation airfoil 
+ls417mod.dat                  \ NASA/Langley LS(1)-0417MOD general aviation airfoil 
+ls421.dat                     \ NASA/Langley LS(1)-0421 general aviation airfoil 
+ls421mod.dat                  \ NASA/Langley LS(1)-0421MOD general aviation airfoil 
+lwk79100.dat                  \ LWK 79-100 symmetrical airfoil 
+lwk80080.dat                  \ LWK 80-080 symmetrical airfoil 
+lwk80100.dat                  \ LWK 80-100 symmetrical airfoil 
+lwk80120k25.dat               \ LWK 80-120/K25 symmetrical airfoil 
+lwk80150k25.dat               \ LWK 80-150/K25 symmetrical airfoil 
+m1.dat                        \ NACA/Munk M-1 airfoil 
+m10.dat                       \ NACA/Munk M-10 airfoil 
+m11.dat                       \ NACA/Munk M-11 airfoil 
+m12.dat                       \ NACA/Munk M-12 airfoil 
+m13.dat                       \ NACA/Munk M-13 airfoil 
+m14.dat                       \ NACA/Munk M-14 airfoil 
+m15.dat                       \ NACA/Munk M-15 airfoil 
+m16.dat                       \ NACA/Munk M-16 airfoil 
+m17.dat                       \ NACA/Munk M-17 airfoil 
+m18.dat                       \ NACA/Munk M-18 airfoil 
+m19.dat                       \ NACA/Munk M-19 airfoil 
+m2.dat                        \ NACA/Munk M-2 airfoil 
+m20.dat                       \ NACA/Munk M-20 airfoil 
+m21.dat                       \ NACA/Munk M-21 airfoil 
+m22.dat                       \ NACA/Munk M-22 airfoil 
+m23.dat                       \ NACA/Munk M-23 airfoil 
+m24.dat                       \ NACA/Munk M-24 airfoil 
+m25.dat                       \ NACA/Munk M-25 airfoil 
+m26.dat                       \ NACA/Munk M-26 airfoil 
+m27.dat                       \ NACA/Munk M-27 airfoil 
+m3.dat                        \ NACA/Munk M-3 airfoil 
+m4.dat                        \ NACA/Munk M-4 airfoil 
+m5.dat                        \ NACA/Munk M-5 airfoil 
+m6.dat                        \ NACA/Munk M-6 airfoil 
+m665.dat                      \ NACA/Munk M6 (65%) 
+m685.dat                      \ NACA/Munk M6 (85%) 
+m7.dat                        \ NACA/Munk M-7 airfoil 
+ma409.dat                     \ Michael Achterberg MA409 F1C class free flight airfoil (original) 
+ma409sm.dat                   \ Michael Achterberg MA409 F1C class free flight airfoil (smoothed) 
+marsden.dat                   \ Marsden airfoil 
+marske1.dat                   \ Marske XM-1D airfoil (F14-3.0) 
+marske2.dat                   \ Marske Pioneer IA airfoil (NACA 23112/43012A hybrid) 
+marske3.dat                   \ Marske Pioneer IID root airfoil (NACA 43012A/24112 hybrid) 
+marske4.dat                   \ Marske Pioneer IID tip airfoil (NACA 43012A*.833 hybrid) 
+marske5.dat                   \ Marske Monarch airfoil (NACA 43012A) 
+marske7.dat                   \ Roncz/Marske-7 low drag flying wing airfoil 
+mb253515sm.dat                \ Mike Bame MB253515 low Reynolds number airfoil 
+mh102.dat                     \ Martin Hepperle MH 102 for stall controlled wind turbines (root) 
+mh104.dat                     \ Martin Hepperle MH 104 for stall controlled wind turbines 
+mh106.dat                     \ Martin Hepperle MH 106 for stall controlled wind turbines 
+mh108.dat                     \ Martin Hepperle MH 108 for stall controlled wind turbines 
+mh110.dat                     \ Martin Hepperle MH 110 for stall controlled wind turbines (tip) 
+mh112.dat                     \ Martin Hepperle MH 112 for a propeller for ultralight (root) 
+mh113.dat                     \ Martin Hepperle MH 113 for a propeller for ultralight 
+mh114.dat                     \ Martin Hepperle MH 114 for a propeller for ultralight 
+mh115.dat                     \ Martin Hepperle MH 115 for a propeller for ultralight 
+mh116.dat                     \ Martin Hepperle MH 116 for a propeller for ultralight 
+mh117.dat                     \ Martin Hepperle MH 117 for a propeller for ultralight (tip) 
+mh120.dat                     \ Martin Hepperle MH 120 for tip section of a propeller 
+mh121.dat                     \ Martin Hepperle MH 121 for tip section of a propeller 
+mh122.dat                     \ Martin Hepperle MH 122 for tip section of a propeller 
+mh126.dat                     \ Martin Hepperle MH 126 for the root region of propellers 
+mh150.dat                     \ Martin Hepperle MH 150 for marine ruddershaft for torque reduction (schottel units) 
+mh18.dat                      \ Martin Hepperle MH 18 for F3D Pylon Racing 
+mh20.dat                      \ Martin Hepperle MH 20 for F3D Pylon Racing 
+mh200.dat                     \ Martin Hepperle MH 200 for a canard airplane (main wing) 
+mh201.dat                     \ Martin Hepperle MH 201 for a canard airplane (canard) 
+mh22.dat                      \ Martin Hepperle MH 22 for F3D Pylon Racing 
+mh23.dat                      \ Martin Hepperle MH 23 for F3D Pylon Racing (extended laminar flow) 
+mh24.dat                      \ Martin Hepperle MH 24 for F3D Pylon Racing (extended laminar flow) 
+mh25.dat                      \ Martin Hepperle MH 25 for F3D Pylon Racing (extended laminar flow) 
+mh26.dat                      \ Martin Hepperle MH 26 for F3D Pylon Racing (extended laminar flow) 
+mh27.dat                      \ Martin Hepperle MH 27 for F3D Pylon Racing (extended laminar flow) 
+mh30.dat                      \ Martin Hepperle MH 30 for F3E and F3B 
+mh32.dat                      \ Martin Hepperle MH 32 for F3E and F3B 
+mh33.dat                      \ Martin Hepperle MH 33 for F3E and F3B 
+mh38.dat                      \ Martin Hepperle MH 38 for Endurance Model 
+mh42.dat                      \ Martin Hepperle MH 42 low Reynolds number airfoil 
+mh43.dat                      \ Martin Hepperle MH 43 for F3B and F3E 
+mh44.dat                      \ Martin Hepperle MH 44 for flying wings 
+mh45.dat                      \ Martin Hepperle MH 45 for flying wings 
+mh46.dat                      \ Martin Hepperle MH 46 for flying wings 
+mh60.dat                      \ Martin Hepperle MH 60 for flying wings 
+mh61.dat                      \ Martin Hepperle MH 61 for flying wings 
+mh62.dat                      \ Martin Hepperle MH 62 for flying wings 
+mh64.dat                      \ Martin Hepperle MH 64 for flying wings 
+mh70.dat                      \ Martin Hepperle MH 70 for fying wing (full size) 
+mh78.dat                      \ Martin Hepperle MH 78 for flying wings (hang glider) 
+mh80.dat                      \ Martin Hepperle MH 80 for flying wings (hang glider) 
+mh81.dat                      \ Martin Hepperle MH 81 for flying wings (hang glider) 
+mh82.dat                      \ Martin Hepperle MH 82 for flying wings (hang glider) 
+mh83.dat                      \ Martin Hepperle MH 83 for flying wings (hang glider) 
+mh84.dat                      \ Martin Hepperle MH 84 for flying wings (hang glider) 
+mh91.dat                      \ Martin Hepperle MH 91 parafoil 
+mh92.dat                      \ Martin Hepperle MH 92 parafoil 
+mh93.dat                      \ Martin Hepperle MH 93 parafoil 
+mh94.dat                      \ Martin Hepperle MH 94 parafoil 
+mh95.dat                      \ Martin Hepperle MH 95 parafoil 
+miley.dat                     \ Miley MO6-13-128 airfoil 
+mrc-16.dat                    \ Drela MRC-16 
+mrc-20.dat                    \ Drela MRC-20 
+ms313.dat                     \ NASA/Langley MS(1)-0313 general aviation airfoil (buggy, shows the 0413 instead) 
+ms317.dat                     \ NASA/Langley MS(1)-0317 general aviation airfoil 
+mue139.dat                    \ MUE 139 airfoil 
+n0009sm.dat                   \ NACA 0009 airfoil (smoothed) 
+n0011sc.dat                   \ NASA/Langley 11% symmetrical supercritical airfoil 
+n0012.dat                     \ NACA 0012 airfoil 
+n10.dat                       \ N-10 airfoil 
+n11.dat                       \ N-11 airfoil 
+n11h9.dat                     \ NACA 11-H-9 rotorcraft airfoil 
+n12.dat                       \ N-12 airfoil 
+n13.dat                       \ N-13 airfoil 
+n14.dat                       \ N-14 airfoil 
+n1h15.dat                     \ NACA 1-H-15 rotorcraft airfoil 
+n22.dat                       \ N-22 airfoil 
+n24.dat                       \ N-24 airfoil 
+n2414.dat                     \ NACA 2414 airfoil 
+n2415.dat                     \ NACA 2415 airfoil 
+n2h15.dat                     \ NACA 2-H-15 rotorcraft airfoil 
+n5h10.dat                     \ NACA 5-H-10 rotorcraft airfoil 
+n5h15.dat                     \ NACA 5-H-15 rotorcraft airfoil 
+n5h20.dat                     \ NACA 5-H-20 rotorcraft airfoil 
+n63010a.dat                   \ NACA 63-010A airfoil 
+n63012a.dat                   \ NACA 63-012A airfoil 
+n63015a.dat                   \ NACA 63-015A airfoil 
+n63210.dat                    \ NACA 63-210 airfoil 
+n63212.dat                    \ NACA 63(1)-212 airfoil 
+n63215.dat                    \ NACA 63(2)-215 airfoil 
+n63215b.dat                   \ NACA-NASA/AMES/Hicks 63(2)-215 MOD B airfoil 
+n63412.dat                    \ NACA 63(1)-412 airfoil 
+n63415.dat                    \ NACA 63(2)-415 airfoil 
+n64008a.dat                   \ NACA 64-008A airfoil 
+n64012.dat                    \ NACA 64(1)-012 airfoil 
+n64012a.dat                   \ NACA 64(1)-012A airfoil 
+n64015.dat                    \ NACA 64(2)-015 airfoil 
+n64015a.dat                   \ NACA 64(2)-015A airfoil 
+n6409.dat                     \ NACA 6409 
+n64108.dat                    \ NACA 64-108 airfoil 
+n64110.dat                    \ NACA 64-110 airfoil 
+n64212.dat                    \ NACA 64(1)-212 airfoil 
+n64212ma.dat                  \ NACA-NASA/AMES/Hicks 63(1)-212 MOD A airfoil 
+n64212mb.dat                  \ NACA-NASA/AMES/Hicks 63(1)-212 MOD B airfoil 
+n64215.dat                    \ NACA 64(2)-215 airfoil 
+n642415.dat                   \ NACA 64(2)-415 [NACA 6a series from Theory of Wing Sections] 
+n66021.dat                    \ NACA 66(4)-021 airfoil 
+n6h10.dat                     \ NACA 6-H-10 rotorcraft airfoil 
+n6h15.dat                     \ NACA 6-H-15 rotorcraft airfoil 
+n6h20.dat                     \ NACA 6-H-20 rotorcraft airfoil 
+n8h12.dat                     \ NACA 8-H-12 rotorcraft airfoil 
+n9.dat                        \ N-9 airfoil 
+naca0006.dat                  \ NACA 0006 airfoil 
+naca0008.dat                  \ NACA 0008 airfoil 
+naca000834.dat                \ NACA 0008-34 airfoil 
+naca0010.dat                  \ NACA 0010 airfoil 
+naca001034.dat                \ NACA 0010-34 airfoil 
+naca001034a08cli0.2.dat       \ NACA 0010-34 a=0.8 c(li)=0.2 airfoil 
+naca001035.dat                \ NACA 0010-35 airfoil 
+naca001064.dat                \ NACA 0010-64 airfoil 
+naca001065.dat                \ NACA 0010-65 airfoil 
+naca001066.dat                \ NACA 0010-66 airfoil 
+naca001234.dat                \ NACA 0012-34 airfoil 
+naca001264.dat                \ NACA 0012-64 airfoil 
+naca001264a08cli0.2.dat       \ NACA 0012-64 a=0.8 c(li)=0.2 airfoil 
+naca0015.dat                  \ NACA 0015 airfoil 
+naca0018.dat                  \ NACA 0018 airfoil 
+naca0021.dat                  \ NACA 0021 airfoil 
+naca0024.dat                  \ NACA 0024 airfoil 
+naca1.dat                     \ NACA-1 COWL 
+naca1408.dat                  \ NACA 1408 airfoil 
+naca1410.dat                  \ NACA 1410 airfoil 
+naca1412.dat                  \ NACA 1412 airfoil 
+naca16006.dat                 \ NACA 16-006 airfoil 
+naca16009.dat                 \ NACA 16009 airfoil 
+naca16012.dat                 \ NACA 16-012 airfoil 
+naca16015.dat                 \ NACA 16-015 airfoil 
+naca16018.dat                 \ NACA 16-018 airfoil 
+naca16021.dat                 \ NACA 16-021 airfoil 
+naca23012.dat                 \ NACA 23012 airfoil 
+naca23015.dat                 \ NACA 23015 airfoil 
+naca23018.dat                 \ NACA 23018 airfoil 
+naca23021.dat                 \ NACA 23021 airfoil 
+naca23024.dat                 \ NACA 23024 airfoil 
+naca2408.dat                  \ NACA 2408 airfoil 
+naca2410.dat                  \ NACA 2410 airfoil 
+naca2411.dat                  \ NACA 2411 airfoil 
+naca2412.dat                  \ NACA 2412 airfoil 
+naca2415.dat                  \ NACA 2415 airfoil 
+naca2418.dat                  \ NACA 2418 airfoil 
+naca2421.dat                  \ NACA 2421 airfoil 
+naca2424.dat                  \ NACA 2424 airfoil 
+naca4412.dat                  \ NACA 4412 airfoil 
+naca4415.dat                  \ NACA 4415 airfoil 
+naca4418.dat                  \ NACA 4418 airfoil 
+naca4421.dat                  \ NACA 4421 airfoil 
+naca4424.dat                  \ NACA 4424 airfoil 
+naca63206.dat                 \ NACA 63-206 airfoil 
+naca63209.dat                 \ NACA 63-209 airfoil 
+naca632615.dat                \ NACA 63(2)-615 airfoil 
+naca632a015.dat               \ NACA 63(2)A-015 airfoil 
+naca633018.dat                \ NACA 63(3)-018 airfoil 
+naca633218.dat                \ NACA 63(3)-218 airfoil 
+naca633418.dat                \ NACA 63,3-418 airfoil 
+naca633618.dat                \ NACA 63(3)-618 airfoil 
+naca634221.dat                \ NACA 63(4)-221 airfoil 
+naca634421.dat                \ NACA 63(4)-421 airfoil 
+naca63a210.dat                \ NACA 63A210 airfoil 
+naca641112.dat                \ NACA 64(1)-112 airfoil 
+naca6412.dat                  \ NACA 6412 airfoil 
+naca64206.dat                 \ NACA 64-206 airfoil 
+naca64208.dat                 \ NACA 64-208 airfoil 
+naca64209.dat                 \ NACA 64-209 airfoil 
+naca64210.dat                 \ NACA 64-210 airfoil 
+naca642215.dat                \ NACA 64(2)-215 airfoil 
+naca642415.dat                \ NACA 64(2)-415 airfoil 
+naca643218.dat                \ NACA 64(3)-218 airfoil 
+naca643418.dat                \ NACA 64(3)-418 airfoil 
+naca643618.dat                \ NACA 64(3)-618 airfoil 
+naca644221.dat                \ NACA 64(4)-221 airfoil 
+naca644421.dat                \ NACA 64(4)-421 airfoil 
+naca64a010.dat                \ NACA 64A010 airfoil 
+naca64a210.dat                \ NACA 64A210 airfoil 
+naca64a410.dat                \ NACA 64A410 airfoil 
+naca651212.dat                \ NACA 65(1)-212 airfoil 
+naca651212a06.dat             \ NACA 65(1)-212 a=0.6 airfoil 
+naca651412.dat                \ NACA 65(1)-412 airfoil 
+naca65206.dat                 \ NACA 65-206 airfoil 
+naca65209.dat                 \ NACA 65-209 airfoil 
+naca65210.dat                 \ NACA 65-210 airfoil 
+naca652215.dat                \ NACA 65(2)-215 airfoil 
+naca652415.dat                \ NACA 65(2)-415 airfoil 
+naca652415a05.dat             \ NACA 65(2)-415 a=0.5 airfoil 
+naca653218.dat                \ NACA 65(3)-218 airfoil 
+naca653618.dat                \ NACA 65(3)-618 airfoil 
+naca65410.dat                 \ NACA 65-410 airfoil 
+naca654221.dat                \ NACA 65(4)-221 airfoil 
+naca654421.dat                \ NACA 65(4)-421 airfoil 
+naca654421a05.dat             \ NACA 65(4)-421 a=0.5 airfoil 
+naca66-018.dat                \ NACA 66-018 airfoil 
+naca661212.dat                \ NACA 66(1)-212 airfoil 
+naca66206.dat                 \ NACA 66-206 airfoil 
+naca66209.dat                 \ NACA 66-209 airfoil 
+naca66210.dat                 \ NACA 66-210 airfoil 
+naca662215.dat                \ NACA 66(2)-215 airfoil 
+naca662415.dat                \ NACA 66(2)-415 airfoil 
+naca663218.dat                \ NACA 66(3)-218 airfoil 
+naca663418.dat                \ NACA 66(3)-418 airfoil 
+naca664221.dat                \ NACA 66(4)-221 airfoil 
+naca671215.dat                \ NACA 67,1-215 airfoil 
+naca747a315.dat               \ NACA 747A315 airfoil 
+naca747a415.dat               \ NACA 747A415 airfoil 
+nacacyh.dat                   \ NACA CYH airfoil 
+nacam12.dat                   \ NACA M12 airfoil 
+nacam18.dat                   \ NACA M18 airfoil 
+nacam2.dat                    \ NACA M2 airfoil 
+nacam3.dat                    \ NACA M3 airfoil 
+nacam6.dat                    \ NACA M6 airfoil 
+nasasc2-0714.dat              \ NASA SC(2)-0714 airfoil (Ref. NASA TP-2890) 
+ncambre.dat                   \ ONERA/Aerospatiale NACA-CAMBRE rotorcraft airfoil 
+nl722343.dat                  \ NLR NLR-7223-43 transonic rotorcraft airfoil 
+nl722362.dat                  \ NLR NLR-7223-62 transonic rotorcraft airfoil 
+nlf0115.dat                   \ NASA/Langley/Somers-Selig-Maughmer NLF(1)-0115 natural laminar flow airfoil 
+nlf0215f.dat                  \ NASA/Langley/Somers NLF(1)-0215F natural laminar flow airfoil 
+nlf1015.dat                   \ NASA/Langley/Somers-Maughmer NLF(1)-1015 natural laminar flow airfoil 
+nlf414f.dat                   \ NASA/Langley/Viken NLF(1)-0414F natural laminar flow airfoil 
+nlf415.dat                    \ NASA/Langley-DFVLR/Somers(NASA)-Horstmann(DFVLR) NLF(2)-0415 natural laminar flow airfoil 
+nlf416.dat                    \ NASA/Langley/Somers NLF(1)-0416 natural laminar flow airfoil 
+nlr1t.dat                     \ Bell/NASA/NLR NLR-1T rotorcraft airfoil 
+nlr7301.dat                   \ NLR NLR-7301 transonic airfoil 
+nn7mk20.dat                   \ NN7 MK20 airfoil 
+npl9510.dat                   \ NPL 9510 transonic airfoil 
+npl9615.dat                   \ NPL 9615 rotorcraft airfoil 
+npl9626.dat                   \ NPL 9626 rotorcraft airfoil 
+npl9627.dat                   \ NPL 9627 rotorcraft airfoil 
+npl9660.dat                   \ NPL 9660 rotorcraft airfoil 
+nplx.dat                      \ NPL transonic airfoil FROM ARC CP 1372 
+oa206.dat                     \ ONERA/Aerospatiale OA206 rotorcraft airfoil (Constructed from patent and smoothed) 
+oa209.dat                     \ ONERA/Aerospatiale OA209 rotorcraft airfoil (Constructed from patent and smoothed) 
+oa212.dat                     \ ONERA/Aerospatiale OA212 rotorcraft airfoil (Constructed from patent and smoothed) 
+oa213.dat                     \ ONERA/Aerospatiale OA213 rotorcraft airfoil (Constructed from patent and smoothed) 
+oaf095.dat                    \ ONERA/Aerospatiale OAF095 Fenestron airfoil 
+oaf102.dat                    \ ONERA/Aerospatiale OAF102 Fenestron airfoil 
+oaf117.dat                    \ ONERA/Aerospatiale OAF117 Fenestron airfoil 
+oaf128.dat                    \ ONERA/Aerospatiale OAF128 Fenestron airfoil 
+oaf139.dat                    \ ONERA/Aerospatiale OAF139 Fenestron airfoil 
+p51droot.dat                  \ P-51D root (BL17.5) airfoil 
+p51dtip.dat                   \ P-51D tip (BL215) airfoil 
+p51hroot.dat                  \ NACA 66,2-(1.8)15.5 A=.6 P-51H root airfoil 
+p51htip.dat                   \ NACA 66,2-(1.8)12 A=.6 P-51H tip airfoil 
+pfcm.dat                      \ Propfan Cruise Missile wing airfoil 
+pmc19sm.dat                   \ PMC19 
+psu-90-125wl.dat              \ PSU-90-125WL sailplane winglet airfoil 
+psu94097.dat                  \ Maughmer PSU 94-097 winglet airfoil 
+pt40.dat                      \ Great Plane PT-40 trainer airfoil 
+r1046.dat                     \ Roncz 1046 Voyager canard airfoil 
+r1080.dat                     \ Roncz 1080 Voyager inner aft wing airfoil 
+r1082.dat                     \ Roncz 1082 Voyager root outer aft wing airfoil 
+r1082t.dat                    \ Roncz 1082T Voyager tip outer aft wing airfoil 
+r140.dat                      \ R140 Quickee 500 airfoil (original) 
+r140sm.dat                    \ R140 Quickee 500 airfoil (smoothed) 
+rae100.dat                    \ RAE 100 airfoil 
+rae101.dat                    \ RAE 101 airfoil 
+rae102.dat                    \ RAE 102 airfoil 
+rae103.dat                    \ RAE 103 airfoil 
+rae104.dat                    \ RAE 104 airfoil 
+rae2822.dat                   \ RAE 2822 transonic airfoil 
+rae5212.dat                   \ RAE(NPL) 5212 transonic airfoil 
+rae5213.dat                   \ RAE(NPL) 5213 transonic airfoil 
+rae5214.dat                   \ RAE 5214 transonic airfoil 
+rae5215.dat                   \ RAE 5215 transonic airfoil 
+rae69ck.dat                   \ RAE6-9CK transonic airfoil 
+raf15.dat                     \ RAF-15 airfoil 
+raf19.dat                     \ RAF-19 airfoil 
+raf25.dat                     \ RAF-25 airfoil 
+raf26.dat                     \ RAF-26 airfoil 
+raf27.dat                     \ RAF-27 airfoil 
+raf28.dat                     \ RAF-28 airfoil 
+raf30.dat                     \ RAF-30 airfoil 
+raf30md.dat                   \ RAF-30 MOD airfoil 
+raf31.dat                     \ RAF-31 airfoil 
+raf32.dat                     \ RAF-32 airfoil 
+raf32md.dat                   \ RAF-32 MOD airfoil 
+raf33.dat                     \ RAF-33 airfoil 
+raf34.dat                     \ RAF-34 airfoil 
+raf38.dat                     \ RAF-38 airfoil 
+raf48.dat                     \ RAF-48 airfoil 
+raf6.dat                      \ RAF-6 airfoil 
+raf69.dat                     \ RAF-69 airfoil 
+raf89.dat                     \ RAF-89 airfoil 
+rc0864c.dat                   \ NASA/Langley 08-64C rotorcraft airfoil 
+rc08b3.dat                    \ NASA/Langley RC-08(B)3 rotorcraft airfoil 
+rc08n1.dat                    \ NASA/Langley RC-08(N)1 rotorcraft airfoil 
+rc1064c.dat                   \ NASA/Langley 10-64C rotorcraft airfoil 
+rc10b3.dat                    \ NASA/Langley RC-10(B)3 rotorcraft airfoil 
+rc10n1.dat                    \ NASA/Langley RC-10(N)1 rotorcraft airfoil 
+rc1264c.dat                   \ NASA/Langley 12-64C rotorcraft airfoil 
+rc12b3.dat                    \ NASA/Langley RC-12(B)3 rotorcraft airfoil 
+rc12n1.dat                    \ NASA/Langley RC-12(N)1 rotorcraft airfoil 
+rc410.dat                     \ NASA/Langley RC(4)-10 rotorcraft airfoil 
+rc510.dat                     \ NASA/Langley RC(5)-10 rotorcraft airfoil 
+rcsc2.dat                     \ NASA/Langley RC-SC2 rotorcraft airfoil 
+rg12.dat                      \ Rolf Girsberger RG 12 airfoil 
+rg12a.dat                     \ Rolf Girsberger RG 12A airfoil 
+rg12a189.dat                  \ Rolf Girsberger RG 12A-1.8/9.0 airfoil 
+rg14.dat                      \ Rolf Girsberger RG 14 airfoil 
+rg1410.dat                    \ Rolf Girsberger RG 14 (10%) airfoil 
+rg149.dat                     \ Rolf Girsberger RG 14 (9%) airfoil 
+rg1495.dat                    \ Rolf Girsberger RG 14 (9.5%) airfoil 
+rg14a147.dat                  \ Rolf Girsberger RG 14A-1.4/7.0 airfoil 
+rg15.dat                      \ Rolf Girsberger RG 15 low Reynolds number airfoil 
+rg15a111.dat                  \ Rolf Girsberger RG 15A-1.8/11.0 airfoil 
+rg15a213.dat                  \ Rolf Girsberger RG 15A 2.5/13.0 airfoil 
+rg8.dat                       \ Rolf Girsberger RG 8 airfoil 
+rhodesg30.dat                 \ Rhode St. Genese 30 airfoil 
+rhodesg32.dat                 \ Rhode St. Genese 32 airfoil 
+rhodesg34.dat                 \ Rhode St. Genese 34 airfoil 
+rhodesg36.dat                 \ Rhode St. Genese 36 airfoil 
+s1010.dat                     \ Selig S1010 HPV airfoil, Wayback Machine: Cheetah HPV 
+s1012.dat                     \ Selig S1012 HPV airfoil, Wayback Machine: Cheetah HPV 
+s1014.dat                     \ Selig S1014 HPV airfoil, Wayback Machine: Cheetah HPV 
+s1016.dat                     \ Selig S1016 HPV airfoil, Wayback Machine: Cheetah HPV 
+s1020.dat                     \ Selig S1020 ornithopter airfoil 
+s1046.dat                     \ Selig S1046 airfoil 
+s1048.dat                     \ Selig S1048 airfoil 
+s1091.dat                     \ Selig S1091 airfoil 
+s1210.dat                     \ Selig S1210 high lift low Reynolds number airfoil 
+s1221.dat                     \ Selig S1221 airfoil 
+s1223.dat                     \ Selig S1223 high lift low Reynolds number airfoil 
+s1223rtl.dat                  \ Richard T. LaSalle modification of the S1223 to S1223RTL 
+s2027.dat                     \ Selig S2027 low Reynolds number airfoil 
+s2046.dat                     \ Selig S2046 low Reynolds number airfoil 
+s2048.dat                     \ Selig S2048 low Reynolds number airfoil 
+s2050.dat                     \ Selig S2050 low Reynolds number airfoil 
+s2055.dat                     \ Selig S2055 low Reynolds number airfoil 
+s2060.dat                     \ Selig S2060 low Reynolds number airfoil 
+s2062.dat                     \ Selig S2062 low Reynolds number airfoil 
+s2091.dat                     \ Selig S2091 low Reynolds number airfoil 
+s3.dat                        \ Republic S-3 airfoil (P-47 wing airfoil) 
+s3002.dat                     \ Selig S3002 low Reynolds number airfoil 
+s3010.dat                     \ Selig S3010 low Reynolds number airfoil 
+s3014.dat                     \ Selig S3014 low Reynolds number airfoil 
+s3016.dat                     \ Selig S3016 low Reynolds number airfoil 
+s3021.dat                     \ Selig S3021 low Reynolds number airfoil 
+s3024.dat                     \ Selig S3024 low Reynolds number airfoil 
+s3025.dat                     \ Selig S3025 low Reynolds number airfoil 
+s4022.dat                     \ Selig S4022 low Reynolds number airfoil 
+s4053.dat                     \ Selig S4053 low Reynolds number airfoil 
+s4061.dat                     \ Selig S4061 low Reynolds number airfoil 
+s4062.dat                     \ Selig S4062 low Reynolds number airfoil 
+s4083.dat                     \ Selig S4083 low Reynolds number airfoil 
+s4110.dat                     \ Selig S4110 low Reynolds number airfoil 
+s4158.dat                     \ Selig S4158 low Reynolds number airfoil 
+s4180.dat                     \ Selig S4180 low Reynolds number airfoil 
+s4233.dat                     \ Selig S4233 low Reynolds number airfoil 
+s4310.dat                     \ Selig S4310 low Reynolds number airfoil 
+s4320.dat                     \ Selig S4320 low Reynolds number airfoil 
+s5010.dat                     \ Selig S5010 low Reynolds number airfoil 
+s5020.dat                     \ Selig S5020 low Reynolds number airfoil 
+s6061.dat                     \ Selig S6061 low Reynolds number airfoil 
+s6062.dat                     \ Selig S6062 low Reynolds number airfoil 
+s6063.dat                     \ Selig S6063 low Reynolds number airfoil 
+s7012.dat                     \ Selig S7012 low Reynolds number airfoil 
+s7055.dat                     \ Selig S7055 low Reynolds number airfoil 
+s7075.dat                     \ Selig S7075 low Reynolds number airfoil 
+s8023.dat                     \ Selig S8023 symmetrical low Reynolds number airfoil 
+s8025.dat                     \ Selig S8025 low Reynolds number airfoil 
+s8035.dat                     \ Selig S8035 low Reynolds number airfoil 
+s8036.dat                     \ Selig S8036 low Reynolds number airfoil 
+s8037.dat                     \ Selig S8037 low Reynolds number airfoil 
+s8038.dat                     \ Selig S8038 (13%) low Reynolds number airfoil 
+s8052.dat                     \ Selig S8052 low Reynolds number airfoil 
+s8055.dat                     \ Selig S8055 (12%) low Reynolds number airfoil 
+s9000.dat                     \ Selig S9000 (9%) low Reynolds number airfoil used on the Blackhawk R/C sailplane 
+s9026.dat                     \ Selig S9026 (9.5%) symmetrical horizontal stab airfoil used on the Opus R/C sailplane 
+s9027.dat                     \ Selig S9027 (8%) symmetrical vertical stab airfoil used on the Opus R/C sailplane 
+s9032.dat                     \ Selig S9032 (9%) symmetrical horizontal stab airfoil used on the Blackhawk R/C sailplane 
+s9033.dat                     \ Selig S9033 (7.5%) symmetrical vertical stab airfoil used on the Blackhawk R/C sailplane
+s9037.dat                     \ Selig S9037 (9%) low Reynolds number airfoil used on the Opus R/C sailplane 
+s9104.dat                     \ Selig S9104 high lift low Reynolds number airfoil 
+s9104BTE.dat                  \ Selig S9104BTE high lift low Reynolds number airfoil 
+sa7024.dat                    \ Selig / Ashok Gopalarathnam SA7024 low Reynolds number airfoil 
+sa7025.dat                    \ Selig / Ashok Gopalarathnam SA7025 low Reynolds number airfoil 
+sa7026.dat                    \ Selig / Ashok Gopalarathnam SA7026 low Reynolds number airfoil 
+sa7035.dat                    \ Selig / Ashok Gopalarathnam SA7035 
+sa7036.dat                    \ Selig / Ashok Gopalarathnam SA7036 
+sa7038.dat                    \ Selig / Ashok Gopalarathnam SA7038 
+saratov.dat                   \ Saratov R/C sailplane airfoil 
+sc1012r8.dat                  \ Sikorsky SC1012 R8 rotorcraft airfoil 
+sc1094r8.dat                  \ Sikorsky/Velkoff SC1094 R8 rotorcraft airfoil 
+sc1095.dat                    \ Sikorsky/Balch SC1095 rotorcraft airfoil 
+sc1095r8.dat                  \ Sikorsky/Velkoff SC1095 R8 rotorcraft airfoil 
+sc20010.dat                   \ NASA SC(2)-0010 airfoil (NASA TP-2969)
+sc20012.dat                   \ NASA SC(2)-0012 airfoil (NASA TP-2969)
+sc20402.dat                   \ NASA SC(2)-0402 airfoil (NASA TP-2969)
+sc20403.dat                   \ NASA SC(2)-0403 airfoil (NASA TP-2969)
+sc20404.dat                   \ NASA SC(2)-0404 airfoil (NASA TP-2969)
+sc20406.dat                   \ NASA SC(2)-0406 airfoil (NASA TP-2969)
+sc20410.dat                   \ NASA SC(2)-0410 airfoil (NASA TP-2969)
+sc20412.dat                   \ NASA SC(2)-0412 airfoil (NASA TP-2969)
+sc20414.dat                   \ NASA SC(2)-0414 airfoil (NASA TP-2969)
+sc20503.dat                   \ NASA SC(2)-0503 airfoil (NASA TP-2969)
+sc20518.dat                   \ NASA SC(2)-0518 airfoil (NASA TP-2969)
+sc20606.dat                   \ NASA SC(2)-0606 airfoil (NASA TP-2969)
+sc20610.dat                   \ NASA SC(2)-0610 airfoil (NASA TP-2969)
+sc20612.dat                   \ NASA SC(2)-0612 airfoil (NASA TP-2969)
+sc20614.dat                   \ NASA SC(2)-0614 airfoil (NASA TP-2969)
+sc20706.dat                   \ NASA SC(2)-0706 airfoil (NASA TP-2969)
+sc20710.dat                   \ NASA SC(2)-0710 airfoil (NASA TP-2969)
+sc20712.dat                   \ NASA SC(2)-0712 airfoil (NASA TP-2969)
+sc20714.dat                   \ NASA SC(2)-0714 airfoil (NASA TP-2969)
+sc20714.dat                   \ NASA/Langley SC(2)-0714 supercritical airfoil 
+sc21006.dat                   \ NASA SC(2)-1006 airfoil 
+sc21010.dat                   \ NASA SC(2)-1010 airfoil 
+sc2110.dat                    \ Sikorsky/Lednicer & Owen SC2110 rotorcraft airfoil (SC5410) 
+sd2030.dat                    \ Selig / Donovan SD2030 low Reynolds number airfoil 
+sd2083.dat                    \ Selig / Donovan SD2083 low Reynolds number airfoil 
+sd5060.dat                    \ Selig / Donovan SD5060 low Reynolds number airfoil 
+sd6060.dat                    \ Selig / Donovan SD6060 low Reynolds number airfoil 
+sd6080.dat                    \ Selig / Donovan SD6080 low Reynolds number airfoil 
+sd7003.dat                    \ Selig / Donovan SD7003 low Reynolds number airfoil 
+sd7032.dat                    \ Selig / Donovan SD7032 low Reynolds number airfoil 
+sd7034.dat                    \ Selig / Donovan SD7034 low Reynolds number airfoil 
+sd7037.dat                    \ Selig / Donovan SD7037 low Reynolds number airfoil 
+sd7043.dat                    \ Selig / Donovan SD7043 low Reynolds number airfoil 
+sd7062.dat                    \ Selig / Donovan SD7062 low Reynolds number airfoil 
+sd7080.dat                    \ Selig / Donovan SD7080 low Reynolds number airfoil 
+sd7084.dat                    \ Selig / Donovan SD7084 low Reynolds number airfoil 
+sd7090.dat                    \ Selig / Donovan SD7090 low Reynolds number airfoil 
+sd8000.dat                    \ Selig / Donovan SD8000 low Reynolds number airfoil 
+sd8020.dat                    \ Selig / Donovan SD8020 low Reynolds number airfoil 
+sd8040.dat                    \ Selig / Donovan SD8040 low Reynolds number airfoil 
+sg6040.dat                    \ Selig / Giguere SG6040 wind turbine airfoil 
+sg6041.dat                    \ Selig / Giguere SG6041 wind turbine airfoil (high L/D) 
+sg6042.dat                    \ Selig / Giguere SG6042 wind turbine airfoil (high L/D) 
+sg6043.dat                    \ Selig / Giguere SG6043 wind turbine airfoil (high L/D) 
+sg6050.dat                    \ Selig / Giguere SG6050 wind turbine airfoil 
+sg6051.dat                    \ Selig / Giguere SG6051 wind turbine airfoil 
+sm701.dat                     \ Somers / Maughmer SM701 airfoil 
+sokolov.dat                   \ Sokolov R/C sailplane airfoil 
+spicasm.dat                   \ Anderson SPICA R/C sailplane airfoil (smoothed) 
+ssca07.dat                    \ Sikorsky/Flemming SSC-A07 transonic rotorcraft airfoil 
+ssca09.dat                    \ Sikorsky/Flemming SSC-A09 transonic rotorcraft airfoil 
+stcyr171.dat                  \ St. CYR 171 (Royer) airfoil 
+stcyr172.dat                  \ St. CYR 172 (Royer) airfoil 
+stcyr234.dat                  \ St. CYR 234 (Bartel 17-IC) airfoil 
+stcyr24.dat                   \ St. CYR 24 (Bartel 35-IIIC) airfoil 
+ste87151.dat                  \ Eppler STE 871-514 airfoil 
+ste87391.dat                  \ Eppler STE 87(-3)-914 airfoil 
+stf86361.dat                  \ Eppler STF 863-615 airfoil 
+strand.dat                    \ Strand high lift airfoil 
+tempest1.dat                  \ Hawker Tempest 37.5% semispan airfoil (NPL?) 
+tempest2.dat                  \ Hawker Tempest 61% semispan airfoil (NPL?) 
+tempest3.dat                  \ Hawker Tempest 96.77% semispan airfoil (NPL?) 
+th25816.dat                   \ Naval Air Development Center/Doug Hall high altitude, long endurance vehicle airfoil 
+trainer60.dat                 \ Great Planes R/C Trainer 60 airfoil 
+tsagi12.dat                   \ TsAGI 12% airfoil 
+tsagi8.dat                    \ TsAGI 8% airfoil 
+ua2-180.dat                   \ UA(2)-180 airfoil for ultralight category aircraft 
+ua2-180sm.dat                 \ UA(2)-180 (smoothed) airfoil for ultralight category aircraft 
+ua79sf18.dat                  \ University of Alberta/Marsden UA 79-SF-187 FLAPPED sailplane airfoil 
+ua79sff.dat                   \ University of Alberta/Marsden UA 79-SF-187 sailplane airfoil FLAP 
+ua79sfm.dat                   \ University of Alberta/Marsden UA 79-SF-187 sailplane airfoil MAIN ELEMENT 
+uag8814320.dat                \ UAG 88-143/20 airfoil 
+ui1720.dat                    \ University of Illinois UI-1720 high lift airfoil 
+ultimate.dat                  \ Carl Goldberg R/C Ultimate Bipe airfoil 
+us1000root.dat                \ Great Planes R/C Ultra-Sport 1000 airfoil 
+usa22.dat                     \ USA-22 airfoil 
+usa25.dat                     \ USA-25 airfoil 
+usa26.dat                     \ USA-26 airfoil 
+usa27.dat                     \ USA-27 airfoil 
+usa27m2.dat                   \ USA-27MOD airfoil 
+usa28.dat                     \ USA-28 airfoil 
+usa29.dat                     \ USA-29 airfoil 
+usa31.dat                     \ USA-31 airfoil 
+usa32.dat                     \ USA-32 airfoil 
+usa33.dat                     \ USA-33 airfoil 
+usa34.dat                     \ USA-34 airfoil 
+usa35.dat                     \ USA-35 airfoil 
+usa35a.dat                    \ USA-35A airfoil 
+usa35b.dat                    \ USA-35B airfoil 
+usa40.dat                     \ USA-40 airfoil 
+usa40b.dat                    \ USA-40B airfoil 
+usa41.dat                     \ USA-41 airfoil 
+usa45.dat                     \ USA-45 airfoil 
+usa45m.dat                    \ USA-45M airfoil 
+usa46.dat                     \ USA-46 airfoil 
+usa48.dat                     \ USA-48 airfoil 
+usa49.dat                     \ USA-49 airfoil 
+usa5.dat                      \ USA-5 airfoil 
+usa50.dat                     \ USA-50 airfoil 
+usa51.dat                     \ USA-51 airfoil 
+usa98.dat                     \ USA-98 airfoil 
+usnps4.dat                    \ Jacobs USNPS4 (smoothed) 17.5 kW wind turbine airfoil 
+v13006.dat                    \ Boeing-Vertol V13006-.7 rotorcraft airfoil 
+v13009.dat                    \ Boeing-Vertol V(1.9)3006-1.25 rotorcraft airfoil 
+v23010.dat                    \ Boeing-Vertol V23010-1.58 rotorcraft airfoil 
+v43012.dat                    \ Boeing-Vertol V43012-1.58 rotorcraft airfoil 
+v43015.dat                    \ Boeing-Vertol V43015-2.48 rotorcraft airfoil 
+vr1.dat                       \ Boeing-Vertol VR-1 rotorcraft airfoil 
+vr11x.dat                     \ Boeing-Vertol/NASA/Dadone VR-11X transonic rotorcraft airfoil 
+vr12.dat                      \ Boeing-Vertol/Dadone VR-12 rotorcraft airfoil 
+vr13.dat                      \ Boeing-Vertol/Dadone VR-13 rotorcraft airfoil 
+vr14.dat                      \ Boeing-Vertol/Dadone VR-14 rotorcraft airfoil 
+vr15.dat                      \ Boeing-Vertol/Dadone VR-15 transonic rotorcraft airfoil 
+vr5.dat                       \ Boeing-Vertol VR-5 rotorcraft airfoil 
+vr7.dat                       \ Boeing-Vertol VR-7 rotorcraft airfoil 
+vr7b.dat                      \ Boeing-Vertol VR-7 rotorcraft airfoil with tab 
+vr8.dat                       \ Boeing-Vertol VR-8 rotorcraft airfoil 
+vr8b.dat                      \ Boeing-Vertol VR-8 rotorcraft airfoil with tab 
+vr9.dat                       \ Boeing-Vertol VR-9 rotorcraft airfoil 
+waspsm.dat                    \ Mike Fox WASP low Reynolds number airfoil 
+wb13535sm.dat                 \ Woody Blanchard WB135/35 R/C sailplane airfoil 
+wb140.dat                     \ Woody Blanchard WB140/35/FB R/C sailplane airfoil 
+whitcomb.dat                  \ NASA/Langley Whitcomb integral supercritical airfoil 
+ys900.dat                     \ YS900 hyrdofoil (Shen / Eppler) 
+ys915.dat                     \ YS915 hydrofoil (Shen / Eppler) 
+ys920.dat                     \ YS920 hydrofoil (Shen / Eppler) 
+ys930.dat                     \ YS930 hydrofoil (Shen / Eppler) 
+cp-060-050.dat                \ Cambered plate C=6% T=5% R=2.11 
+cp-080-050.dat                \ Cambered plate C=8% T=5% R=1.6 
+cp-100-050.dat                \ Cambered plate C=10% T=5% R=1.3 
+cp-120-050.dat                \ Cambered plate C=12% T=5% R=1.1 
+cp-140-050.dat                \ Cambered plate C=14% T=5% R=0.96 
+cp-160-050.dat                \ Cambered plate C=16% T=5% R=0.86 
+cp-180-050.dat                \ Cambered plate C=18% T=5% R=0.78 
+du06-w-200.dat                \ DU 06-W-200 VAWT airfoil 
+joukowsk0009.dat              \ Joukovsky f=0% t=9% 
+joukowsk0015.dat              \ Joukovsky f=0% t=15% 
+joukowsk0018.dat              \ Joukovsky f=0% t=18% 
+joukowsk0021.dat              \ Joukovsky f=0% t=21% 
+naca0012h.dat                 \ NACA0012H for VAWT from Sandia report SAND80-2114 
+naca22112.dat                 \ NACA 22112 
+naca23112.dat                 \ NACA 23112 
+naca24112.dat                 \ NACA 24112 
+naca25112.dat                 \ NACA 25112 
+prandtl-d-root.dat            \ Prandtl-D root - NASA Preliminary Research Aerodynamic Design To Lower Drag prandtl-d-tip-ns - Prandtl-D tip - NASA Preliminary Research Aerodynamic Design To Lower Drag 
+pw1211.dat                    \ PW1211 pw51-pw - PW51 
+pw75.dat                      \ PW75 pw98mod-pw - PW98-mod 
+s802.dat                      \ NREL's S802 Airfoil 
+s803.dat                      \ NREL's S803 Airfoil 
+s804.dat                      \ NREL's S804 Airfoil 
+s805a.dat                     \ NREL's S805A Airfoil 
+s806a.dat                     \ NREL's S806A Airfoil (modified line 35) 
+s807.dat                      \ NREL's S807 Airfoil 
+s808.dat                      \ NREL's S808 Airfoil 
+s809.dat                      \ NREL's S809 Airfoil 
+s810.dat                      \ NREL's S810 Airfoil 
+s811.dat                      \ NREL's S811 Airfoil 
+s812.dat                      \ NREL's S812 Airfoil 
+s813.dat                      \ NREL's S813 Airfoil 
+s814.dat                      \ NREL's S814 Airfoil 
+s815.dat                      \ NREL's S815 Airfoil 
+s816.dat                      \ NREL's S816 Airfoil 
+s817.dat                      \ NREL's S817 Airfoil 
+s818.dat                      \ NREL's S818 Airfoil 
+s819.dat                      \ NREL's S819 Airfoil 
+s820.dat                      \ NREL's S820 Airfoil 
+s821.dat                      \ NREL's S821 Airfoil 
+s822.dat                      \ NREL's S822 Airfoil 
+s823.dat                      \ NREL's S823 Airfoil 
+s825.dat                      \ NREL's S825 Airfoil 
+s826.dat                      \ NREL's S826 Airfoil 
+s827.dat                      \ NREL's S827 Airfoil 
+s828.dat                      \ NREL's S828 Airfoil 
+s829.dat                      \ NREL's S829 Airfoil 
+s830.dat                      \ NREL's S830 Airfoil 
+s831.dat                      \ NREL's S831 Airfoil 
+s832.dat                      \ NREL's S832 Airfoil 
+s833.dat                      \ NREL's S833 Airfoil 
+s834.dat                      \ NREL's S834 Airfoil 
+s835.dat                      \ NREL's S835 Airfoil 
+sp4621hp.dat                  \ SP4621HP 
+sp4721la.dat                  \ SP4721LA 

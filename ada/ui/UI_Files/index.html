@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
+    <link href="index.css" rel="stylesheet">
+    <script src="three.module.js" type="module"></script>
+    <script src="OrbitControls.js" type="module"></script>
+    <script src="geometryWindowHandler.js" type="module"></script>
+    <script src="index.js" type="module"></script>
+</head>
+
+<body style="margin: 0px;">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+
+    <div class="container">
+        <div class="header">
+          <a class="header-text">ADA-Foil Basic User Interface</a>
+        </div>
+
+        <div class="flex-container">
+            <div class="fileSidebar small-font-index main-column" id="file-sidebar-body">
+                <div class="scroll-wrapper" id="file-sidebar-scroll-wrapper">
+                </div>
+            </div>
+
+            <div class="analysisSidebar small-font-index main-column" id="analysis-sidebar-body">
+                <div class="scroll-wrapper" id="analysis-sidebar-scroll-wrapper">
+                </div>
+            </div>
+
+            <div class="dataSidebar small-font-index main-column" id="data-sidebar-body">
+                <div class="scroll-wrapper" id="data-sidebar-scroll-wrapper">
+                </div>
+            </div>
+            
+            <div class="main-stacker main-column">
+                <div class="main-content" id="main-body">
+                    <div class="scroll-wrapper" id="main-body-scroll-wrapper">
+                    </div>
+                </div>
+                <div class="footer">
+                    <div class="query-box">
+                        <select class="mode-selector query-box-font" id="mode-selector-dropdown" style="background-color: #0065cc;">
+                            <option value="Functions">Functions</option>
+                            <option value="RAG">RAG</option>
+                            <option value="RAG-C">RAG-C</option>
+                            <option value="LLM">LLM</option>
+                        </select>
+                        <input type="text" class="input-text-box query-box-font" id="input_text" align="right" placeholder="Type your query here..." autofocus>
+                        <button class="send-button query-box-font" onclick="runMain(event)">Send</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="geometry-stacker main-column">
+                <div class="geometryWindow" id="geometry-window-body">
+                </div>
+                <div class="geometrySidebar small-font-index" id="geometry-sidebar-body">
+                    <div class="scroll-wrapper" id="geometry-sidebar-scroll-wrapper">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>      
+</body>
+
+
+
+
+</html>
